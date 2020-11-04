@@ -56,77 +56,80 @@ export default function SignUp({
   const successful = response && response.status === "success";
 
   return (
-    <div className="flex justify-between flex-col lg:flex-row">
-      <Formik
-        initialValues={{
-          email_address: "",
-          first_name: "",
-        }}
-        validationSchema={SubscribeSchema}
-        onSubmit={(values) => handleSubmit(values)}
-        render={({ errors, touched, isSubmitting }) => (
-          <>
-            {!successful && (
-              <>
+    <Formik
+      initialValues={{
+        email_address: "",
+        first_name: "",
+      }}
+      validationSchema={SubscribeSchema}
+      onSubmit={(values) => handleSubmit(values)}
+      render={({ errors, touched, isSubmitting }) => (
+        <>
+          {!successful && (
+            <>
+              {children && (
                 <div className="px-6 text-3xl lg:text-5xl my-auto">
                   {children}
                 </div>
-                <Form className="flex mx-auto my-auto">
-                  <div>
-                    <label htmlFor="first_name">
-                      <div class="flex">
-                        <Field
-                          aria-label="your first name"
-                          aria-required="false"
-                          name="first_name"
-                          placeholder="Jane"
-                          type="text"
-                          className=" text-2xl bg-gray-200 rounded-xl p-2 my-automt-8"
-                        />
-                        <ErrorMessage
-                          name="first_name"
-                          component="span"
-                          className="field-error"
-                        />
-                      </div>
-                    </label>
-                    <label htmlFor="email">
-                      <div class="flex">
-                        <Field
-                          aria-label="your email address"
-                          aria-required="true"
-                          name="email_address"
-                          placeholder="jane@acme.com"
-                          type="email"
-                          className="text-2xl bg-gray-200 rounded-xl p-2 my-2"
-                        />
-                        <ErrorMessage
-                          name="email_address"
-                          component="span"
-                          className="text-red-700"
-                        />
-                      </div>
-                    </label>
-                  </div>
-                  <button
-                    data-element="submit"
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-primary text-white px-2 py-4 mx-2 my-auto rounded-xl"
-                  >
-                    {!isSubmitting && "Submit"}
-                    {isSubmitting && "Submitting..."}
-                  </button>
-                </Form>
-              </>
-            )}
-            {submitted && !isSubmitting && (
-              <PostSubmissionMessage response={response} />
-            )}
-            {errorMessage && <div>{errorMessage}</div>}
-          </>
-        )}
-      />
-    </div>
+              )}
+              <Form className="mx-auto my-auto">
+                <div className="flex">
+                  <label htmlFor="first_name">
+                    <div class="">
+                      <p className="text-white">First name</p>
+                      <Field
+                        aria-label="your first name"
+                        aria-required="false"
+                        name="first_name"
+                        placeholder="Jane"
+                        type="text"
+                        className="text-2xl rounded-xl p-2 my-auto bg-white mr-3"
+                      />
+                      <ErrorMessage
+                        name="first_name"
+                        component="span"
+                        className="field-error"
+                      />
+                    </div>
+                  </label>
+                  <label htmlFor="email">
+                    <div class="">
+                      <p className="text-white">Email</p>
+                      <Field
+                        aria-label="your email address"
+                        aria-required="true"
+                        name="email_address"
+                        placeholder="jane@acme.com"
+                        type="email"
+                        className="text-2xl rounded-xl p-2 my-auto bg-white ml-2"
+                      />
+                      <ErrorMessage
+                        name="email_address"
+                        component="span"
+                        className="text-red-700"
+                      />
+                    </div>
+                  </label>
+                </div>
+
+                <button
+                  data-element="submit"
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="bg-white text-primary px-8 py-2 mx-2 my-3 rounded-xl"
+                >
+                  {!isSubmitting && "Subscribe!"}
+                  {isSubmitting && "Subscribing..."}
+                </button>
+              </Form>
+            </>
+          )}
+          {submitted && !isSubmitting && (
+            <PostSubmissionMessage response={response} />
+          )}
+          {errorMessage && <div>{errorMessage}</div>}
+        </>
+      )}
+    />
   );
 }

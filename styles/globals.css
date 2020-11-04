@@ -4,31 +4,31 @@
 
 @font-face {
   font-family: "The Hand Regular";
-  font-style: normal;
-  font-weight: normal;
+  font-style: bold;
+  font-weight: 700;
   src: local("The Hand Regular"),
-    url("/font/TheHandRegular.woff") format("woff");
+    url("/fonts/TheHandRegular.woff") format("woff");
 }
 
 @font-face {
   font-family: "The Hand Light";
-  font-style: normal;
-  font-weight: normal;
-  src: local("The Hand Light"), url("/font/TheHandLight.woff") format("woff");
+  font-style: bold;
+  font-weight: 800;
+  src: local("The Hand Light"), url("/fonts/TheHandLight.woff") format("woff");
 }
 
 @font-face {
   font-family: "The Hand Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("The Hand Bold"), url("/font/TheHandBold.woff") format("woff");
+  src: local("The Hand Bold"), url("/fonts/TheHandBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "The Hand Black";
   font-style: normal;
   font-weight: normal;
-  src: local("The Hand Black"), url("/font/TheHandBlack.woff") format("woff");
+  src: local("The Hand Black"), url("/fonts/TheHandBlack.woff") format("woff");
 }
 
 @font-face {
@@ -36,22 +36,16 @@
   font-style: normal;
   font-weight: normal;
   src: local("The Hand Extrablack"),
-    url("/font/TheHandXtraBlk.woff") format("woff");
+    url("/fonts/TheHandXtraBlk.woff") format("woff");
 }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: The Hand Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-h2 {
-  font-weight: 900;
-  color: #ffffff;
-}
-
-p {
-  @apply my-4;
-}
+/* p { */
+/*   @apply my-4; */
+/* } */
