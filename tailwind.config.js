@@ -10,6 +10,7 @@ module.exports = {
         primary: "#fe842f",
       },
       opacity: {
+        "49": ".49",
         "68": ".68",
       },
     },
