@@ -8,13 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
     "@material-ui/core": "^4.11.0",
+    "@mdx-js/loader": "^1.6.19",
+    "fast-glob": "^3.2.4",
     "formik": "^2.2.1",
+    "fs": "0.0.1-security",
+    "gray-matter": "^4.0.2",
     "isomorphic-unfetch": "^3.1.0",
     "next": "10.0.1",
+    "next-mdx-remote": "^1.0.0",
+    "prism-react-renderer": "^1.1.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-twitter-embed": "^3.0.3",
+    "use-cloudinary": "^4.0.2",
     "yup": "^0.29.3"
   },
   "devDependencies": {

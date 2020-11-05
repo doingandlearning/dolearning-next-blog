@@ -1,72 +1,71 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FrontPanel from "../components/FrontPanel";
-import Header from "../components/Header";
-import EmailForm from "../components/EmailForm";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
+import FrontPanel from "@components/FrontPanel";
+import Layout from "@components/Layout";
+import EmailForm from "@components/EmailForm";
+import Modal from "@components/Modal";
 import Image from "next/image";
 import React from "react";
-import Modal from "../components/Modal";
 
 export default function Home() {
   const [mailingList, setMailingList] = React.useState(
     process.env.MAIN_MAILING_LIST
   );
   const [showModal, setShowModal] = React.useState(false);
-  console.log(mailingList);
   return (
-    <div>
-      <Head>
-        <title>Kevin Cunningham (@dolearning)</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Header />
-
+    <Layout pageTitle="Kevin Cunningham (@dolearning)" description="Homepage">
       <Modal showModal={showModal} setShowModal={setShowModal}>
         <EmailForm formid={mailingList} />
       </Modal>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <main className={styles.main}>
-          <div className="flex justify-between bg-dlgrey flex-col md:flex-row">
-            <div className="flex flex-row md:flex-col justify-center ml-4 my-2">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+        <div>
+          <div className="flex justify-between bg-dlgrey flex-col md:flex-row py-16">
+            <div className="flex flex-row md:flex-col justify-center mx-8 my-2">
               <div>
                 <a href="https://twitter.com/dolearning">
-                  <Image src="/twitter.svg" width="30" height="30" />
+                  <Image src="/twitter.svg" width="50" height="50" />
                 </a>
               </div>
               {/* <div>github</div> */}
               <div>
                 <a href="mailto:kevin@kevincunningham.co.uk">
-                  <Image src="/email.svg" width="30" height="30" />
+                  <Image src="/email.svg" width="50" height="50" />
                 </a>{" "}
               </div>
             </div>
-            <div className="w-5/6 md:w-1/2 mx-auto md:mx-0">
-              <p className="text-primary">Hi, I'm Kevin Cunningham</p>
-              <h2 className="w-5/6 font-extrabold text-dlblue text-3xl leading-8">
+            <div className="w-5/6 md:w-1/2 md:mx-0 mx-auto">
+              {/* <p className="text-primary">Kevin Cunningham</p> */}
+              <h2 className="w-5/6 font-extrabold text-dlblue text-3xl leading-8 mb-4">
                 Welcome to my little corner of the internet
               </h2>
-              <p className="5/6">
+              <p className="text-xl text-black leading-none xl:text-3xl lg:text-2xl">
                 I'm passionate about learning, teaching and helping others level
                 up their skills. I use this space to grow and develop my ideas
                 and thinking.
-                <br /> Join my newsletter where I share whay I've been working
-                on, new course I've created and cool things I've found on the
-                web.
               </p>
+              <br />
+              <p className="text-xl text-black leading-none xl:text-3xl lg:text-2xl">
+                Join my newsletter where I share what I've been working on, new
+                courses I've created and cool things I've found on the web.
+              </p>
+
               <button
-                className="text-white bg-primary rounded-lg my-3 w-full md:w-1/2 mx-auto py-4 px-3"
+                className="text-white bg-primary rounded-lg my-8 w-full md:w-1/2 mx-auto py-4 px-3 text-xl border-2 hover:border-primary hover:text-primary hover:bg-white"
                 onClick={() => {
-                  setMailingList("");
+                  setMailingList("1697448");
                   setShowModal(true);
                 }}
               >
-                Subscribe to the newsletter
+                Subscribe to my newsletter
               </button>
             </div>
-            <div className="my-4 md:my-auto md:mx-3 mx-auto">
+            <div className="my-4 md:my-auto md:mx-3 mx-auto text-center">
               <Image src="/face.svg" height="200" width="200" />
+              <p className="text-dlblue text-lg text-center">
+                Hi, I'm Kevin Cunningham 👋🏻
+              </p>
+              <p className="text-dlblue text-lg text-center">
+                (or @dolearning)
+              </p>
             </div>
           </div>
 
@@ -161,7 +160,7 @@ export default function Home() {
             ]}
             primaryCTA={{
               function: () => {
-                setMailingList("test");
+                setMailingList("1792578");
                 setShowModal(true);
               },
               text: "Signup to the free Next.js email course",
@@ -190,29 +189,9 @@ export default function Home() {
               <h2 className="w-5/6 font-extrabold text-white text-3xl leading-8">
                 Subscribe to the weekly newsletter
               </h2>
-              <EmailForm />
+              <EmailForm formid="1697448" />
             </div>
           </div>
-          <div className="flex">
-            <div className="text-4xl my-auto mx-4 w-1/3">
-              Come follow me on Twitter! <br />
-              Like most places online, I go by
-              <a
-                href="https://twitter.com/dolearning"
-                className="hover:text-primary"
-              >
-                {" "}
-                @dolearning
-              </a>
-              .
-            </div>
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName="dolearning"
-              options={{ height: 400 }}
-            />
-          </div>
-
           <FrontPanel
             title="Learning"
             posts={[
@@ -230,27 +209,31 @@ export default function Home() {
               },
             ]}
             primaryCTA={{
-              link: "https://www.kevincunningham.co.uk/categories/learning/",
+              function: () => {
+                setMailingList("1791860");
+                setShowModal(true);
+              },
+              text: "Signup for an email course on learning tactics",
+              type: "modal",
+            }}
+            secondaryCTA={{
+              link:
+                "https://www.kevincunningham.co.uk/categories/migrating-to-next-api-routes/",
+              type: "link",
             }}
             opacity="68"
           >
-            <p>
+            <p className="py-4">
               I spent 12 years teaching Maths to primary and secondary children.
               I've been obsessed with learning and how we learn for decades.
             </p>
-            <p>
+            <p className="py-4">
               I'm a self-taught developer and love helping others level up their
               craft. I write a lot about how we learn and how we can improve our
               learning.
             </p>
           </FrontPanel>
-          <EmailForm formid="1791860">
-            <p className="text-center">
-              Fancy strengthening your learning muscles?
-              <br />
-              Sign up for my 5 day email course.
-            </p>
-          </EmailForm>
+
           <FrontPanel
             title="JAM Stack"
             posts={[
@@ -272,21 +255,17 @@ export default function Home() {
               link:
                 "https://www.kevincunningham.co.uk/categories/migrating-to-next-api-routes/",
             }}
-            color="white"
+            color="dlgrey"
+            reverse={true}
           >
             <p>
-              Next.js is an amazing framework built on top of React. I spend
-              time making tutorials and content exploring how to use it in
-              interesting ways.
+              You've probably heard about JAMStack. I write about the good, the
+              bad and the ugly.
             </p>
-            <p>
-              Whether you want to launch a prototype, interact with 3rd party
-              services or just improve your coding skills, jump in here!
-            </p>
+            <p></p>
           </FrontPanel>
-        </main>
+        </div>
       </div>
-      <footer className={styles.footer}></footer>
-    </div>
+    </Layout>
   );
 }

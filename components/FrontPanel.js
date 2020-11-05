@@ -11,14 +11,12 @@ export default function FrontPanel({
   reverse = false,
 }) {
   return (
-    <div className={`bg-${color} p-4`}>
-      <h2 className="mx-auto text-center font-bold text-dlblue text-3xl mb-3">
-        {title}
-      </h2>
-      <div className="flex flex-col md:flex-row">
+    <div className={`bg-${color} p-4 py-20`}>
+      <h2 className="text-center font-bold text-dlblue text-3xl">{title}</h2>
+      <div className="flex flex-col md:flex-row mt-8">
         {reverse ? (
           <>
-            <div className="my-auto text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
+            <div className="text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
               {children}
             </div>
             <PostGrid posts={posts} />
@@ -26,19 +24,21 @@ export default function FrontPanel({
         ) : (
           <>
             <PostGrid posts={posts} />
-            <div className="my-auto text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
+            <div className=" text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
               {children}
             </div>
           </>
         )}
       </div>
       <div
-        className={`flex md:flex-row flex-wrap space-between ${
+        className={`flex md:flex-row flex-wrap ${
           reverse ? "md:justify-start" : "md:justify-end"
-        } my-4 flex-grow`}
+        } mt-8`}
       >
-        {primaryCTAParser(primaryCTA)}
-        {secondaryCTA && secondaryCTAParser(secondaryCTA)}
+        <div className="mt-8">{primaryCTAParser(primaryCTA)}</div>
+        <div className="mt-8">
+          {secondaryCTA && secondaryCTAParser(secondaryCTA)}
+        </div>
       </div>
     </div>
   );
@@ -58,27 +58,12 @@ function PostGrid({ posts }) {
   );
 }
 
-function InvertOrder(comp1, comp2, reverse) {
-  console.log(<comp1 />);
-  return reverse ? (
-    <>
-      <comp1 />
-      <comp2 />
-    </>
-  ) : (
-    <>
-      <comp2 />
-      <comp1 />
-    </>
-  );
-}
-
 function secondaryCTAParser(cta) {
   console.log(cta);
   switch (cta.type) {
     case "modal":
       return (
-        <div className="text-xl mx-2">
+        <div className="text-normal lg:text-xl mx-2">
           <div onClick={() => cta.function}>
             <a className="text-white rounded-xl p-4 text-primary hover:bg-primary hover:text-white border-2 border-primary bg-white">
               {cta.text || "More content"}
@@ -89,7 +74,7 @@ function secondaryCTAParser(cta) {
       break;
     case "link":
       return (
-        <div className="text-xl mx-2">
+        <div className="text-normal md:text-xl mx-2">
           <Link href={cta.link}>
             <a className="text-white rounded-xl p-4 text-primary hover:bg-primary hover:text-white border-2 border-primary bg-white">
               {cta.text || "Read more content"}
@@ -108,7 +93,7 @@ function primaryCTAParser(cta) {
   switch (cta.type) {
     case "modal":
       return (
-        <div className="text-xl  mx-2">
+        <div className="text-normal md:text-xl  mx-2">
           <div onClick={() => cta.function()}>
             <a className="hover:text-lightPrimary hover:bg-white border-2  hover:border-primary text-white bg-lightPrimary rounded-xl p-4">
               {cta.text}
@@ -120,7 +105,7 @@ function primaryCTAParser(cta) {
     case "link":
     default:
       return (
-        <div className="text-xl  mx-2">
+        <div className="  mx-2">
           <Link href={cta.link}>
             <a className="hover:text-lightPrimary hover:bg-white border-2  hover:border-primary text-white bg-lightPrimary rounded-xl p-4">
               {cta.text || "Read more content"}

@@ -21,15 +21,10 @@ export default function Modal({ children, showModal, setShowModal }) {
         aria-labelledby="modal-slide-title"
         aria-describedby="modal-slide-description"
       >
-        <DialogContent id="modal-slide-description" className="mx-auto my-auto">
-          <IconButton
-            key="close"
-            aria-label="Close"
-            color="inherit"
-            onClick={() => setShowModal(false)}
-          >
-            x
-          </IconButton>
+        <DialogContent
+          id="modal-slide-description"
+          className="mx-auto bg-primary"
+        >
           {children}
         </DialogContent>
       </Dialog>

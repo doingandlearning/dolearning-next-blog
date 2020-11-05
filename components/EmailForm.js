@@ -73,10 +73,10 @@ export default function SignUp({
                 </div>
               )}
               <Form className="mx-auto my-auto">
-                <div className="flex">
+                <div className="flex flex-col md:flex-row">
                   <label htmlFor="first_name">
-                    <div class="">
-                      <p className="text-white">First name</p>
+                    <div class="pt-4">
+                      <p className="text-white p-2">First name</p>
                       <Field
                         aria-label="your first name"
                         aria-required="false"
@@ -93,15 +93,15 @@ export default function SignUp({
                     </div>
                   </label>
                   <label htmlFor="email">
-                    <div class="">
-                      <p className="text-white">Email</p>
+                    <div class="pt-4">
+                      <p className="text-white p-2">Email</p>
                       <Field
                         aria-label="your email address"
                         aria-required="true"
                         name="email_address"
                         placeholder="jane@acme.com"
                         type="email"
-                        className="text-2xl rounded-xl p-2 my-auto bg-white ml-2"
+                        className="text-2xl rounded-xl p-2 my-auto bg-white md:ml-2"
                       />
                       <ErrorMessage
                         name="email_address"
@@ -116,7 +116,7 @@ export default function SignUp({
                   data-element="submit"
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-white text-primary px-8 py-2 mx-2 my-3 rounded-xl"
+                  className="bg-white text-primary px-8 py-2 mx-2 my-3 rounded-xl mt-6"
                 >
                   {!isSubmitting && "Subscribe!"}
                   {isSubmitting && "Subscribing..."}
