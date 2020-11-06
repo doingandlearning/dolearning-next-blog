@@ -4,21 +4,13 @@ import renderToString from "next-mdx-remote/render-to-string";
 import matter from "gray-matter";
 import glob from "fast-glob";
 
-import Code from "@components/Code";
-import Image from "@components/Image";
-import EggheadEmbed from "@components/EggheadEmbed";
-export const components = {
-  code: Code,
-  img: Image,
-  EggheadEmbed: EggheadEmbed,
-};
+import components from "@components/Components";
 
 export async function getMdxContent(source) {
   const contentGlob = `${source}/**/*.mdx`;
   const files = glob.sync(contentGlob);
 
   if (!files.length) return [];
-  console.log(files);
   const content = await Promise.all(
     files.map(async (filepath) => {
       const slug = filepath
@@ -28,7 +20,7 @@ export async function getMdxContent(source) {
 
       const mdxSource = await fs.readFile(filepath);
       const { content, data } = matter(mdxSource);
-      const mdx = await renderToString(content);
+      const mdx = await renderToString(content, { components, scope: data });
 
       return {
         filepath,

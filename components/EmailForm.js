@@ -75,7 +75,7 @@ export default function SignUp({
               <Form className="mx-auto my-auto">
                 <div className="flex flex-col md:flex-row">
                   <label htmlFor="first_name">
-                    <div class="pt-4">
+                    <div className="pt-4">
                       <p className="text-white p-2 font-normal text-lg">
                         First name
                       </p>
@@ -95,7 +95,7 @@ export default function SignUp({
                     </div>
                   </label>
                   <label htmlFor="email">
-                    <div class="pt-4">
+                    <div className="pt-4">
                       <p className="text-white p-2 font-normal text-lg">
                         Email
                       </p>

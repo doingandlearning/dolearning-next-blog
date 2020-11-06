@@ -1,5 +1,6 @@
 import React from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
+import github from "prism-react-renderer/themes/github";
 
 // function CopyButton({ value }) {
 //   const { onCopy, hasCopied } = useClipboard(value);
@@ -11,9 +12,14 @@ import Highlight, { defaultProps } from "prism-react-renderer";
 // }
 
 export default function Code({ children, className }) {
-  const language = className.replace(/language-/, "");
+  const language = className?.replace(/language-/, "");
   return (
-    <Highlight {...defaultProps} code={children.trim()} language={language}>
+    <Highlight
+      {...defaultProps}
+      code={children.trim()}
+      language={language}
+      theme={github}
+    >
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
           className={className}
@@ -23,6 +29,7 @@ export default function Code({ children, className }) {
             marginTop: 20,
             marginBottom: 20,
             padding: 16,
+            lineHeight: 1.4,
           }}
         >
           {tokens.map((line, i) => (
