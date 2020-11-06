@@ -44,8 +44,10 @@ body {
   margin: 0;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 200;
+  line-height: 1;
 }
 
-/* p { */
-/*   @apply my-4; */
-/* } */
+p {
+  line-height: 1.3;
+}

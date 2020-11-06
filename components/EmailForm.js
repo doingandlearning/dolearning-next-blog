@@ -76,7 +76,9 @@ export default function SignUp({
                 <div className="flex flex-col md:flex-row">
                   <label htmlFor="first_name">
                     <div class="pt-4">
-                      <p className="text-white p-2">First name</p>
+                      <p className="text-white p-2 font-normal text-lg">
+                        First name
+                      </p>
                       <Field
                         aria-label="your first name"
                         aria-required="false"
@@ -94,7 +96,9 @@ export default function SignUp({
                   </label>
                   <label htmlFor="email">
                     <div class="pt-4">
-                      <p className="text-white p-2">Email</p>
+                      <p className="text-white p-2 font-normal text-lg">
+                        Email
+                      </p>
                       <Field
                         aria-label="your email address"
                         aria-required="true"

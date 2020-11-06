@@ -7,9 +7,13 @@ import glob from "fast-glob";
 import Code from "@components/Code";
 import Image from "@components/Image";
 import EggheadEmbed from "@components/EggheadEmbed";
+export const components = {
+  code: Code,
+  img: Image,
+  EggheadEmbed: EggheadEmbed,
+};
 
 export async function getMdxContent(source) {
-  const components = { code: Code, img: Image, EggheadEmbed };
   const contentGlob = `${source}/**/*.mdx`;
   const files = glob.sync(contentGlob);
 

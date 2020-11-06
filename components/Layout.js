@@ -11,9 +11,10 @@ export default function Layout({ children, pageTitle, description }) {
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
       </Head>
-      <main>
+      <main className="flex justify-between flex-col min-h-screen">
         <Header />
-        <div className="content">{children}</div>
+        <div className="content flex-grow">{children}</div>
+
         <Footer />
       </main>
     </>

@@ -59,7 +59,6 @@ function PostGrid({ posts }) {
 }
 
 function secondaryCTAParser(cta) {
-  console.log(cta);
   switch (cta.type) {
     case "modal":
       return (
@@ -89,7 +88,6 @@ function secondaryCTAParser(cta) {
 }
 
 function primaryCTAParser(cta) {
-  console.log(cta);
   switch (cta.type) {
     case "modal":
       return (

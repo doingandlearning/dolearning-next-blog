@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 bg-primary flex">
+    <div className="mx-auto px-4 sm:px-6 lg:px-8 bg-primary w-full self-end  flex">
       <div className="flex text-white justify-start my-auto">
         <Link href="/">
           <a className="px-4">Home</a>

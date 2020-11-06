@@ -10,12 +10,15 @@ export default function Home() {
   const [mailingList, setMailingList] = React.useState(
     process.env.MAIN_MAILING_LIST
   );
+
   const [showModal, setShowModal] = React.useState(false);
+
   return (
     <Layout pageTitle="Kevin Cunningham (@dolearning)" description="Homepage">
       <Modal showModal={showModal} setShowModal={setShowModal}>
         <EmailForm formid={mailingList} />
       </Modal>
+
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <div className="flex justify-between bg-dlgrey flex-col md:flex-row py-16">
@@ -37,13 +40,13 @@ export default function Home() {
               <h2 className="w-5/6 font-extrabold text-dlblue text-3xl leading-8 mb-4">
                 Welcome to my little corner of the internet
               </h2>
-              <p className="text-xl text-black leading-none xl:text-3xl lg:text-2xl">
+              <p className="text-xl text-black xl:text-3xl lg:text-2xl">
                 I'm passionate about learning, teaching and helping others level
                 up their skills. I use this space to grow and develop my ideas
                 and thinking.
               </p>
               <br />
-              <p className="text-xl text-black leading-none xl:text-3xl lg:text-2xl">
+              <p className="text-xl text-black xl:text-3xl lg:text-2xl">
                 Join my newsletter where I share what I've been working on, new
                 courses I've created and cool things I've found on the web.
               </p>
@@ -185,7 +188,9 @@ export default function Home() {
           </FrontPanel>
           <div className="bg-lightPrimary w-full py-16">
             <div className="w-1/2 mx-auto">
-              <p className="text-dlblue text-left ">Like what you see?</p>
+              <p className="text-dlblue text-left text-lg font-normal">
+                Like what you see?
+              </p>
               <h2 className="w-5/6 font-extrabold text-white text-3xl leading-8">
                 Subscribe to the weekly newsletter
               </h2>
