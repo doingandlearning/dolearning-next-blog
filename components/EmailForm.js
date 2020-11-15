@@ -68,7 +68,7 @@ export default function SignUp({
           {!successful && (
             <>
               {children && (
-                <div className="px-6 text-3xl lg:text-5xl my-auto">
+                <div className="px-2 sm:px-6 text-3xl lg:text-5xl my-auto">
                   {children}
                 </div>
               )}

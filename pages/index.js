@@ -58,7 +58,7 @@ export default function Home() {
                   setShowModal(true);
                 }}
               >
-                Subscribe to my newsletter
+                Subscribe and learn
               </button>
             </div>
             <div className="my-4 md:my-auto md:mx-3 mx-auto text-center">
@@ -78,9 +78,9 @@ export default function Home() {
             posts={[
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/wtf-does-headless-mean/",
+                  "https://www.kevincunningham.co.uk/posts/headless-wordpress-rest-or-graphql/",
                 image:
-                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=WTF%20does%20headless%20mean",
+                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Headless Wordpress: REST and GraphQL",
               },
 
               {
@@ -108,13 +108,12 @@ export default function Home() {
                 setMailingList("1754898");
                 setShowModal(true);
               },
-              text: "Signup to the free email course",
+              text: "Signup to my free email course",
 
               type: "modal",
             }}
             secondaryCTA={{
-              link:
-                "https://www.kevincunningham.co.uk/categories/headless-word-press/",
+              link: "/blog",
               type: "link",
             }}
             color="white"
@@ -187,11 +186,11 @@ export default function Home() {
             </p>
           </FrontPanel>
           <div className="bg-lightPrimary w-full py-16">
-            <div className="w-1/2 mx-auto">
+            <div className="w-full md:w-1/2 mx-auto px-4">
               <p className="text-dlblue text-left text-lg font-normal">
                 Like what you see?
               </p>
-              <h2 className="w-5/6 font-extrabold text-white text-3xl leading-8">
+              <h2 className="w-full md:w-5/6 font-extrabold text-white text-3xl leading-8">
                 Subscribe to the weekly newsletter
               </h2>
               <EmailForm formid="1697448" />
@@ -223,7 +222,7 @@ export default function Home() {
             }}
             secondaryCTA={{
               link:
-                "https://www.kevincunningham.co.uk/categories/migrating-to-next-api-routes/",
+                "/blog",
               type: "link",
             }}
             opacity="68"
@@ -258,7 +257,7 @@ export default function Home() {
             ]}
             primaryCTA={{
               link:
-                "https://www.kevincunningham.co.uk/categories/migrating-to-next-api-routes/",
+                "/blog",
             }}
             color="dlgrey"
             reverse={true}

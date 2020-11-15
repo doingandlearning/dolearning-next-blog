@@ -13,27 +13,26 @@ export default function FrontPanel({
   return (
     <div className={`bg-${color} p-4 py-20`}>
       <h2 className="text-center font-bold text-dlblue text-3xl">{title}</h2>
-      <div className="flex flex-col md:flex-row mt-8">
+      <div className="flex flex-col md:flex-row ">
         {reverse ? (
           <>
-            <div className="text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
+            <div className="text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl ">
               {children}
             </div>
             <PostGrid posts={posts} />
           </>
         ) : (
-          <>
-            <PostGrid posts={posts} />
-            <div className=" text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl">
-              {children}
-            </div>
-          </>
-        )}
+            <>
+              <PostGrid posts={posts} />
+              <div className=" text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl -pt-4">
+                {children}
+              </div>
+            </>
+          )}
       </div>
       <div
-        className={`flex md:flex-row flex-wrap ${
-          reverse ? "md:justify-start" : "md:justify-end"
-        } mt-8`}
+        className={`flex md:flex-row flex-wrap ${reverse ? "md:justify-start" : "md:justify-end"
+          } mt-8`}
       >
         <div className="mt-8">{primaryCTAParser(primaryCTA)}</div>
         <div className="mt-8">
@@ -48,7 +47,7 @@ function PostGrid({ posts }) {
   return (
     <div className="grid grid-rows-2 grid-cols-2">
       {posts.map((post, idx) => (
-        <div className="mx-2">
+        <div className="mx-2" key={post.url}>
           <Link href={post.url} key={`link-${idx}`}>
             <Image src={post.image} width="380" height="200" />
           </Link>
@@ -70,7 +69,6 @@ function secondaryCTAParser(cta) {
           </div>
         </div>
       );
-      break;
     case "link":
       return (
         <div className="text-normal md:text-xl mx-2">
@@ -81,7 +79,6 @@ function secondaryCTAParser(cta) {
           </Link>
         </div>
       );
-      break;
     default:
       break;
   }
@@ -99,7 +96,6 @@ function primaryCTAParser(cta) {
           </div>
         </div>
       );
-      break;
     case "link":
     default:
       return (
@@ -111,6 +107,5 @@ function primaryCTAParser(cta) {
           </Link>
         </div>
       );
-      break;
   }
 }

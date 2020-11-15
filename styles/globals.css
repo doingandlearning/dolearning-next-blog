@@ -38,6 +38,10 @@
   src: local("The Hand Extrablack"),
     url("/fonts/TheHandXtraBlk.woff") format("woff");
 }
+
+:root {
+  font-size: 18px;
+}
 html,
 body {
   padding: 0;

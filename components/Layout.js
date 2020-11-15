@@ -10,6 +10,22 @@ export default function Layout({ children, pageTitle, description }) {
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
+        <a
+          rel="webmention"
+          href="https://webmention.io/www.kevincunningham.co.uk/webmention"
+          className="hidden"
+        />
+        <a
+          rel="pingback"
+          href="https://webmention.io/www.kevincunningham.co.uk/xmlrpc"
+          className="hidden"
+        />
+        <script
+          async
+          defer
+          data-domain="kevincunningham.co.uk"
+          src="https://plausible.io/js/plausible.outbound-links.js"
+        ></script>
       </Head>
       <main className="flex justify-between flex-col min-h-screen">
         <Header />

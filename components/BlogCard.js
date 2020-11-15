@@ -4,9 +4,8 @@ import Link from "next/link";
 export default function BlogCard({ blog, description = true, className }) {
   return (
     <div
-      className={`grid ${
-        description ? "grid-cols-2" : "grid-cols-1"
-      } ${className}`}
+      className={`grid ${description ? "grid-cols-2" : "grid-cols-1"
+        } ${className}`}
     >
       <Link href={blog.path} key={blog.slug}>
         <a>
@@ -17,10 +16,9 @@ export default function BlogCard({ blog, description = true, className }) {
           />
         </a>
       </Link>
-      <div className="px-2">
+      <div className="px-2 -mt-4">
         {description && (
           <>
-            {" "}
             <h2 className="font-bold">{blog.title}</h2>
             <p>{blog.description}</p>
           </>
