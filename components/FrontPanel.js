@@ -34,10 +34,12 @@ export default function FrontPanel({
         className={`flex md:flex-row flex-wrap ${reverse ? "md:justify-start" : "md:justify-end"
           } mt-8`}
       >
-        <div className="mt-8">{primaryCTAParser(primaryCTA)}</div>
-        <div className="mt-8">
-          {secondaryCTA && secondaryCTAParser(secondaryCTA)}
-        </div>
+        {primaryCTA && <div className="mt-8">{primaryCTAParser(primaryCTA)}</div>}
+        {secondaryCTA &&
+          <div className="mt-8">
+            {secondaryCTAParser(secondaryCTA)}
+          </div>
+        }
       </div>
     </div>
   );
@@ -45,11 +47,13 @@ export default function FrontPanel({
 
 function PostGrid({ posts }) {
   return (
-    <div className="grid grid-rows-2 grid-cols-2">
+    <div className="pt-8 grid grid-rows-2 grid-cols-2">
       {posts.map((post, idx) => (
         <div className="mx-2" key={post.url}>
           <Link href={post.url} key={`link-${idx}`}>
-            <Image src={post.image} width="380" height="200" />
+            <a>
+              <Image src={post.image} width="380" height="200" />
+            </a>
           </Link>
         </div>
       ))}

@@ -78,40 +78,40 @@ export default function Home() {
             posts={[
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/headless-wordpress-rest-or-graphql/",
+                  "/posts/headless-wordpress-rest-or-graphql/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Headless Wordpress: REST and GraphQL",
               },
 
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/advantages-of-headless-wordpress/",
+                  "/posts/advantages-of-headless-wordpress/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=8%20Advantages%20of%20Headless%20WordPress",
               },
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/wtf-does-headless-mean/",
+                  "/posts/wtf-does-headless-mean/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=WTF%20does%20headless%20mean",
               },
 
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/advantages-of-headless-wordpress/",
+                  "/posts/advantages-of-headless-wordpress/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=8%20Advantages%20of%20Headless%20WordPress",
               },
             ]}
-            primaryCTA={{
-              function: () => {
-                setMailingList("1754898");
-                setShowModal(true);
-              },
-              text: "Signup to my free email course",
+            // primaryCTA={{
+            //   function: () => {
+            //     setMailingList("1754898");
+            //     setShowModal(true);
+            //   },
+            //   text: "Signup to my free email course",
 
-              type: "modal",
-            }}
+            //   type: "modal",
+            // }}
             secondaryCTA={{
               link: "/blog",
               type: "link",
@@ -135,42 +135,42 @@ export default function Home() {
             posts={[
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/what-are-nextjs-api-routes-all-about",
+                  "/posts/what-are-nextjs-api-routes-all-about",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=What%20are%20Next.js%20API%20routes%20all%20about",
               },
 
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/authentication-with-nextjs-api-routes",
+                  "/posts/authentication-with-nextjs-api-routes",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Authentication%20with%20Next.js%20API%20routes",
               },
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/what-are-nextjs-api-routes-all-about",
+                  "/posts/dealing-with-a-database-with-nextjs-api-routes",
                 image:
-                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=What%20are%20Next.js%20API%20routes%20all%20about",
+                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Dealing with a database with Next.js API routes",
               },
 
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/authentication-with-nextjs-api-routes",
+                  "/posts/keeping-secrets-safe-with-nextjs-api-routes",
                 image:
-                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Authentication%20with%20Next.js%20API%20routes",
+                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Keeping secrets safe with Next.js API routes",
               },
             ]}
-            primaryCTA={{
-              function: () => {
-                setMailingList("1792578");
-                setShowModal(true);
-              },
-              text: "Signup to the free Next.js email course",
-              type: "modal",
-            }}
+            // primaryCTA={{
+            //   function: () => {
+            //     setMailingList("1792578");
+            //     setShowModal(true);
+            //   },
+            //   text: "Signup to the free Next.js email course",
+            //   type: "modal",
+            // }}
             secondaryCTA={{
               link:
-                "https://www.kevincunningham.co.uk/categories/migrating-to-next-api-routes/",
+                "/categories/migrating-to-next-api-routes/",
               type: "link",
             }}
             color="dlgrey"
@@ -200,26 +200,26 @@ export default function Home() {
             title="Learning"
             posts={[
               {
-                url: "https://www.kevincunningham.co.uk/posts/learning-react/",
+                url: "/posts/learning-react/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Learning%20React",
               },
 
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/why-do-people-stop-learning/",
+                  "/posts/why-do-people-stop-learning/",
                 image:
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Why%20do%20I%20keep%20learning",
               },
             ]}
-            primaryCTA={{
-              function: () => {
-                setMailingList("1791860");
-                setShowModal(true);
-              },
-              text: "Signup for an email course on learning tactics",
-              type: "modal",
-            }}
+            // primaryCTA={{
+            //   function: () => {
+            //     setMailingList("1791860");
+            //     setShowModal(true);
+            //   },
+            //   text: "Signup for an email course on learning tactics",
+            //   type: "modal",
+            // }}
             secondaryCTA={{
               link:
                 "/blog",
@@ -243,16 +243,15 @@ export default function Home() {
             posts={[
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/what-are-nextjs-api-routes-all-about",
+                  "/posts/dealing-with-a-database-with-nextjs-api-routes",
                 image:
-                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=What%20are%20Next.js%20API%20routes%20all%20about",
+                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Dealing with a database with Next.js API routes",
               },
-
               {
                 url:
-                  "https://www.kevincunningham.co.uk/posts/authentication-with-nextjs-api-routes",
+                  "/posts/advantages-of-headless-wordpress/",
                 image:
-                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=Authentication%20with%20Next.js%20API%20routes",
+                  "https://hungry-brattain-538c0b.netlify.app/opengraph?title=8%20Advantages%20of%20Headless%20WordPress",
               },
             ]}
             primaryCTA={{

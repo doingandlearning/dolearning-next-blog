@@ -19,7 +19,6 @@ export default function BlogPost({ mdxSource, frontMatter }) {
         openGraph={{
           url: `https://www.kevincunningham.co.uk${frontMatter.path}`,
           title: frontMatter.title,
-
           images: [
             {
               url: `https://hungry-brattain-538c0b.netlify.app/opengraph?title=${frontMatter.title}`,
@@ -28,7 +27,7 @@ export default function BlogPost({ mdxSource, frontMatter }) {
               alt: `Blog card for ${frontMatter.title}`,
             }
           ],
-          site_name: 'SiteName',
+          site_name: "Kevin Cunningham",
         }}
         twitter={{
           handle: '@dolearning',
@@ -41,7 +40,7 @@ export default function BlogPost({ mdxSource, frontMatter }) {
           {frontMatter.title}
         </h1>
         <p className="border-t border-b my-auto py-2 text-gray-700 text-center bg-dlgrey">
-          Published on {format(new Date(frontMatter.date), "EEEE do MMMM, y")}.
+          Last updated on {format(new Date(frontMatter.date), "EEEE do MMMM, y")}.
         </p>
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 blog-post max-w-2xl">
           {content}

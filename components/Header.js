@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <div className="container mx-auto my-auto px-4 sm:px-6 lg:px-8 bg-white p-4 flex justify-around md:justify-between">
       <div className="mx-0 md:mx-12">
-        <Image src="/brain.svg" height="40" width="40" />
+        <Image src="/brain.jpg" height="40" width="40" />
       </div>
       <div className="flex lg:w-1/5 md:w-1/3 w-1/2 ml-6 justify-between my-auto font-normal">
         <ActiveLink href="/">
