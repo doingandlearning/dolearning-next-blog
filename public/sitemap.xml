@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc>https://kevincunningham.co.uk/404</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/blog</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/garden</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/headless-wordpress</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/index</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/newsletter</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/5-things-learnt-freelancing</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/adding-toast-notifications-to-next-app</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/advanced-hooks</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/advanced-sql</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/advantages-of-headless-wordpress</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/authentication-with-nextjs-api-routes</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/basic-sql-navigation</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/being-smart-not-feeling-smart</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/brain-surgery-or-restaurant-review</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/building-react-apps</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/cancelling-the-master-branch</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/creating-an-upload-route-in-express</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/creating-calendar-events-from-a-google-form</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/day-1-up-and-running</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/dealing-with-a-database-with-nextjs-api-routes</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/developing-an-express-api</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/discord-inktober-bot</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/drupal-patch</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/emacs-sms-todo</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/gatsby-digital-garden-mob-programming</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/got-a-ton-of-server-and-database-issues-is-headless-wordpress-the-answer</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/headless-wordpress-rest-or-graphql</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/how-are-javascript-and-typescript-related</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/is-blitz-js-worth-your-time</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/kcd-advanced-patterns</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/kcd-building-react-apps-2</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/kcd-kent-marathon</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/kcd-react-performance</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/kcd-react-suspense</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/keeping-secrets-safe-with-nextjs-api-routes</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/laravel-logging</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/learning-react</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/make-sure-express-api-is-not-abused</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/migrating-gatsby-stream</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/new-learning-adventure-typescript</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/nextjs-importing-svgs</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/pillars-of-learning</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/premature-optimization</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/protecting-credentials</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/python-geocoder</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/react-fundamentals</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/react-hooks</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/releasing-gatsby-theme-pkm-garden</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/smile-multi-factor-authentication</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/teacher-developer-teacher</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/webmentions-and-campfires</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/what-are-nextjs-api-routes-all-about</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/what-is-a-digital-garden</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/whats-in-a-newsletter</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/where-should-you-host-the-wordpress-instance</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/which-programming-language</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/why-do-i-learn</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/why-do-people-stop-learning</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/why-does-your-frontend-application-need-a-server</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/why-headless-wordpress-is-an-awesome-choice</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/wtf-does-headless-mean</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+
+	<url>
+		<loc>https://kevincunningham.co.uk/posts/yak-shaving</loc>
+		<lastmod>2021-02-01</lastmod>
+	</url>
+</urlset>

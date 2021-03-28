@@ -7,7 +7,7 @@ export default function Garden() {
       <div className="bg-white w-full py-16">
         <div className="w-full md:w-1/2 mx-auto px-4">
           <h2 className="w-full md:w-5/6 font-extrabold text-lightPrimary text-3xl leading-8">
-            Are you stuck in tutorial hell? Not sure where to go next with your learning?
+            Stuck in tutorial hell?
               </h2>
           <p className="text-dlblue text-left text-lg font-normal">
             You want to be constantly learning and inspired - growing as a developer and confident that your effort is being well spent.
@@ -15,7 +15,7 @@ export default function Garden() {
           <p>
 
             Let me help! Sign-up below and every week I'll send you:</p>
-          <ul>
+          <ul className="leading-6">
             <li>
               an actionable tip that you'll be able to use to level up straight away;
 
@@ -33,7 +33,7 @@ export default function Garden() {
 
         </div>
       </div>
-      <div className="bg-lightPrimary w-full py-16 flex mb-10">
+      <div className="bg-lightPrimary w-full py-4 flex mb-10">
 
         <EmailForm formid="1697448" />
       </div>

@@ -75,9 +75,9 @@ export default function Blog({ allMdx }) {
           onChange={(e) => setTerm(e.target.value)}
         />
       </div>
-      <div className="mx-auto px-4 sm:px-6 lg:px-24 grid gap-x-2 gap-y-4 grid-cols-1 md:grid-cols-2 my-4">
+      <div className="mx-auto text-center my-4 grid grid-cols-1 md:grid-cols-2">
         {filteredBlogs?.map((blog) => (
-          <BlogCard blog={blog} key={blog.slug} />
+          <BlogCard blog={blog} key={blog.slug} className="my-4 mx-auto text-center" />
         ))}
       </div>
     </Layout>

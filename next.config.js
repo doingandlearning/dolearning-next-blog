@@ -5,6 +5,7 @@ module.exports = {
       "www.fillmurray.com",
       "developer.files.wordpress.com",
       "www.gatsbyjs.com",
+      "res.cloudinary.com"
     ],
   },
   env: {},

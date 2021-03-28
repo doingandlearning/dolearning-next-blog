@@ -22,13 +22,13 @@ export default function FrontPanel({
             <PostGrid posts={posts} />
           </>
         ) : (
-            <>
-              <PostGrid posts={posts} />
-              <div className=" text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl -pt-4">
-                {children}
-              </div>
-            </>
-          )}
+          <>
+            <PostGrid posts={posts} />
+            <div className=" text-xl text-black leading-none px-8 xl:text-3xl lg:text-2xl -pt-4">
+              {children}
+            </div>
+          </>
+        )}
       </div>
       <div
         className={`flex md:flex-row flex-wrap ${reverse ? "md:justify-start" : "md:justify-end"
@@ -75,9 +75,9 @@ function secondaryCTAParser(cta) {
       );
     case "link":
       return (
-        <div className="text-normal md:text-xl mx-2">
+        <div className="mx-2">
           <Link href={cta.link}>
-            <a className="text-white rounded-xl p-4 text-primary hover:bg-primary hover:text-white border-2 border-primary bg-white">
+            <a className="text-white rounded-xl p-4 text-primary hover:bg-lightPrimary hover:text-white border-2 border-lightPrimary bg-white">
               {cta.text || "Read more content"}
             </a>
           </Link>
@@ -103,7 +103,7 @@ function primaryCTAParser(cta) {
     case "link":
     default:
       return (
-        <div className="  mx-2">
+        <div className="mx-2">
           <Link href={cta.link}>
             <a className="hover:text-lightPrimary hover:bg-white border-2  hover:border-primary text-white bg-lightPrimary rounded-xl p-4">
               {cta.text || "Read more content"}

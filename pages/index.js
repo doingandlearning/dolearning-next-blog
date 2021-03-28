@@ -47,8 +47,8 @@ export default function Home() {
               </p>
               <br />
               <p className="text-xl text-black xl:text-3xl lg:text-2xl">
-                Join my newsletter where I share what I've been working on, new
-                courses I've created and cool things I've found on the web.
+                Join my newsletter where I help developers escape tutorial hell and
+                make progress at all stages of their careers.
               </p>
 
               <button
@@ -58,7 +58,7 @@ export default function Home() {
                   setShowModal(true);
                 }}
               >
-                Subscribe and learn
+                Subscribe and escape
               </button>
             </div>
             <div className="my-4 md:my-auto md:mx-3 mx-auto text-center">
@@ -103,15 +103,10 @@ export default function Home() {
                   "https://hungry-brattain-538c0b.netlify.app/opengraph?title=8%20Advantages%20of%20Headless%20WordPress",
               },
             ]}
-            // primaryCTA={{
-            //   function: () => {
-            //     setMailingList("1754898");
-            //     setShowModal(true);
-            //   },
-            //   text: "Signup to my free email course",
-
-            //   type: "modal",
-            // }}
+            primaryCTA={{
+              link: "https://learnetto.com/users/dolearning/courses/off-with-your-head",
+              text: "Check out my ebook"
+            }}
             secondaryCTA={{
               link: "/blog",
               type: "link",

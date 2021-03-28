@@ -49,11 +49,10 @@ body {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 200;
-  line-height: 1;
+  line-height: 1.4;
 }
 
 p {
-  line-height: 1.3;
   @apply py-2;
 }
 ul {
@@ -104,4 +103,10 @@ a {
 }
 a:hover {
   @apply text-black;
+}
+
+hr {
+  border: 2px solid gainsboro;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }

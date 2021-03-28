@@ -11,14 +11,15 @@ const EggheadEmbed = ({ lessonLink, lessonTitle }) => {
     [iframeRef.current]
   );
 
-  // useLayoutEffect(() => {
-  //   handleResize();
-  //   window.addEventListener(`resize`, handleResize);
+  useLayoutEffect(() => {
+    handleResize();
+    window.addEventListener(`resize`, handleResize);
 
-  //   return () => {
-  //     window.removeEventListener(`resize`, handleResize);
-  //   };
-  // }, [iframeRef.current]);
+    return () => {
+      window.removeEventListener(`resize`, handleResize);
+    };
+  }, [iframeRef.current]);
+
   return (
     <div className="p-4 flex justify-center">
       <div className="relative mb-10">

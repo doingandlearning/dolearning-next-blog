@@ -1,0 +1,23 @@
+---
+title: "Twitter bots - in defence of HTML!"
+date: ""
+layout: post
+draft: false
+path: "/posts/twitter-bot-in-defence-of-html"
+category: "Twitter"
+tags:
+  - "HTML"
+  - "API"
+  - "OAuth"
+description: ""
+---
+
+My Twitter timeline has recently had a flurry of HTML arguments - whether it is or isn't a programming language. Personally, I find the argument a bit tedious. Knowing and understanding semantic HTML, using it correctly and deploying it to our sites makes the web a better place.
+
+Whether or not markup languages are programming languages feels unimportant. But, I was also aware I wanted to work on my Twitter bot skills and thought this might be a good opportunity.
+
+Twitter closed down their developer portal a while back and it takes a lot longer to get credentials to be able to work with. The first thing you'll need to do is head over to [the developer portal](https://developer.twitter.com/en), signin and fill in a form asking for permission to create applications on the platform. 
+
+It took a few weeks for me to be approved - so get on it! :) 
+
+
