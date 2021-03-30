@@ -1,4 +1,4 @@
-import hydrate from "next-mdx-remote/hydrate";
+import Link from "next/link";
 import { format } from "date-fns";
 import { NextSeo } from 'next-seo';
 
@@ -6,6 +6,7 @@ import Layout from "@components/Layout";
 import EmailForm from "@components/EmailForm"
 
 import components from "@components/Components";
+import BlogCard from "@components/BlogCard"
 
 import { getPostBySlug, getAllPosts, getRelatedPosts, postPathBySlug } from 'lib/posts';
 import { categoryPathBySlug } from 'lib/categories';
@@ -28,6 +29,7 @@ export default function BlogPost({ post, relatedPosts }) {
   const socialImageUrl = getMetaImage(title);
 
   const { posts: relatedPostsList, title: relatedPostsTitle } = relatedPosts;
+  console.log(relatedPosts)
 
   return (
     <Layout>
@@ -71,6 +73,32 @@ export default function BlogPost({ post, relatedPosts }) {
         <div className="bg-primary w-full flex justify-center mx-auto mb-4">
           <EmailForm />
         </div>
+      </div>
+      <div>
+        {!!relatedPostsList.length && (
+          <div className="text-center">
+            {relatedPostsTitle.name ? (
+              <span className="font-bold">
+                More from{' '}
+                <Link href={relatedPostsTitle.link}>
+                  <a>{relatedPostsTitle.name}</a>
+                </Link>
+              </span>
+            ) : (
+              <span>More Posts</span>
+            )}
+            <div className="grid grid-cols-3 gap-4">
+              {relatedPostsList.map((post, idx) => {
+                if (idx > 2) return null;
+                return (
+                  <div key={idx}>
+                    <BlogCard blog={post} showTitle={false} />
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </Layout>
   );
