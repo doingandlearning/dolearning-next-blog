@@ -60,8 +60,9 @@ export default function BlogPost({ post, relatedPosts }) {
           {title}
         </h1>
         <p className="border-t border-b my-auto py-2 text-gray-700 text-center bg-dlgrey">
-          Last updated on {format(new Date(modifiedGmt), "EEEE do MMMM, y")}.
+          Published on {format(new Date(date), "EEEE do MMMM, y")}.
         </p>
+
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 blog-post max-w-2xl">
           <div
             className=""
@@ -70,6 +71,9 @@ export default function BlogPost({ post, relatedPosts }) {
             }}
           />
         </div>
+        <p className="border-t border-b my-auto py-2 text-gray-700 text-center bg-dlgrey">
+          Last updated on {format(new Date(modifiedGmt), "EEEE do MMMM, y")}.
+        </p>
         <div className="bg-primary w-full flex justify-center mx-auto mb-4">
           <EmailForm />
         </div>
