@@ -89,6 +89,7 @@ function secondaryCTAParser(cta) {
 }
 
 function primaryCTAParser(cta) {
+  if (!cta.type && !cta.link) return null
   switch (cta.type) {
     case "modal":
       return (
