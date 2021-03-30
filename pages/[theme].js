@@ -17,7 +17,6 @@ export default function LandingPage({
   resources,
 }) {
   const [showModal, setShowModal] = React.useState(false);
-  console.log(introduction);
   return (
     <Layout>
       <Modal showModal={showModal} setShowModal={setShowModal}>

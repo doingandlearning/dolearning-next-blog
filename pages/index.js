@@ -17,7 +17,6 @@ export default function Home({ fields }) {
 
   const headerFields = fields?.acf?.feature
   const rows = fields?.acf?.rows
-  console.log(rows)
   return (
     <Layout pageTitle="Kevin Cunningham (@dolearning)" description="Homepage">
       <Modal showModal={showModal} setShowModal={setShowModal}>
@@ -89,7 +88,7 @@ function mapFrontPageRow(row) {
         title={row.title}
         posts={row.posts.map(post => {
           return {
-            url: `/posts${post?.post.slug}`,
+            url: `/posts/${post?.post.slug}`,
             image: getMetaImage(post?.post?.title)
           }
         })}

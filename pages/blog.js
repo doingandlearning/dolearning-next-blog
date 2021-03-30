@@ -2,17 +2,16 @@ import Layout from "@components/Layout";
 import BlogCard from "@components/BlogCard";
 import Modal from "@components/Modal";
 import EmailForm from "@components/EmailForm";
-import { BLOG_CONTENT_PATH } from "@config/constants";
-import { getMdxContent } from "@utils/get-mdx-content";
+import { getAllPosts } from "lib/posts";
 import React from "react";
 import Image from "next/image";
 import Fuse from "fuse.js";
 
-export default function Blog({ allMdx }) {
+export default function Blog({ posts }) {
   const [term, setTerm] = React.useState("");
   const [showModal, setShowModal] = React.useState(false);
-  const initial = allMdx.sort((a, b) => new Date(b.date) - new Date(a.date));
-  const fuse = new Fuse(allMdx, {
+  const initial = posts
+  const fuse = new Fuse(posts, {
     keys: ["title", "description", "tags"],
     threshold: 0.2,
   });
@@ -85,13 +84,10 @@ export default function Blog({ allMdx }) {
 }
 
 export async function getStaticProps() {
-  const posts = await getMdxContent(BLOG_CONTENT_PATH);
 
-  const allMdx = posts.map((post) => ({
-    slug: post.slug,
-    ...post.data,
-  }));
+  const wpPosts = await getAllPosts()
+
   return {
-    props: { allMdx },
+    props: { posts: wpPosts.posts },
   };
 }

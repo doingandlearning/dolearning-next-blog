@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Kevin Cunningham]]></title>
+        <description><![CDATA[Kevin Cunningham]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 30 Mar 2021 19:15:25 GMT</lastBuildDate>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 30 Mar 2021 19:15:25 GMT</pubDate>
+        <copyright><![CDATA[2021 Kevin Cunningham]]></copyright>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Why is my video file not being cached by gatsby-source-wordpress?]]></title>
+            <description><![CDATA[I&#8217;m not picky over what technology I use to deliver results for my clients. At SpinUp, we&#8217;ll normally help find the best mix of technologies that will allow for excellent results fast. Recently though, we had a project in which the technology was pre-defined &#8211; WordPress on the backend and Gatsby on the front-end. I [&hellip;]
+]]></description>
+            <link>/posts/gatsby-and-wordpress</link>
+            <guid isPermaLink="false">/posts/gatsby-and-wordpress</guid>
+            <category><![CDATA[Gatsby]]></category>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 24 Mar 2021 14:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brain surgery or Restaurant review?]]></title>
+            <description><![CDATA[I&#8217;m not a fan of certification where it is unnecessary. I feel that often these documents and processes are artificial gatekeepers to maintain the status quo. There are times when it is necessary though. I found this heuristic recently and think it is helpful. A restaurant review in a newspaper can be very interesting to [&hellip;]
+]]></description>
+            <link>/posts/brain-surgery-or-restaurant-review</link>
+            <guid isPermaLink="false">/posts/brain-surgery-or-restaurant-review</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 01 Feb 2021 15:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Importing SVGs to Next.js]]></title>
+            <description><![CDATA[SVGs are great! They are scalable vector graphics. As they are vector based they can be scaled to be huge or tiny and they won&#8217;t pixelate. They are made up of XML describing the paths and shapes needed to make the final image. They are an excellent choice for responsive web design but importing them [&hellip;]
+]]></description>
+            <link>/posts/nextjs-importing-svgs</link>
+            <guid isPermaLink="false">/posts/nextjs-importing-svgs</guid>
+            <category><![CDATA[Next]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 14 Dec 2020 15:49:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Teacher Developer Teacher]]></title>
+            <description><![CDATA[I was convinced I had a job for life. I&#8217;d moved from Belfast to Brighton in 2004 to start my teacher training and this was it. Yeah, I&#8217;d heard how many careers people of my generation are likely to have in a lifetime but that all seemed to be for other people. Over the next [&hellip;]
+]]></description>
+            <link>/posts/teacher-developer-teacher</link>
+            <guid isPermaLink="false">/posts/teacher-developer-teacher</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 12 Dec 2020 16:01:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Being Smart !== Feeling Smart]]></title>
+            <description><![CDATA[Would you rather be smart or feel smart? I&#8217;m not even sure I agree with the word smart but I&#8217;m curious about the question anyway (there are lots of ways to be &#8220;smart&#8221; and measuring them seems ridiculous to me). Our brains are weird. We get a dopamine hit when we successfully recall a piece [&hellip;]
+]]></description>
+            <link>/posts/being-smart-not-feeling-smart</link>
+            <guid isPermaLink="false">/posts/being-smart-not-feeling-smart</guid>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 05 Dec 2020 15:29:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Smile Multi Factor Authentication]]></title>
+            <description><![CDATA[As part of being an Auth0 ambassador, I get to partake in internal hackathons. I had a lot of fun taking part in my first one as we put the new Actions through it&#8217;s paces. What are Actions? Actions are secure serverless functions that are triggered at various points of the authentication flow. At the [&hellip;]
+]]></description>
+            <link>/posts/smile-multi-factor-authentication</link>
+            <guid isPermaLink="false">/posts/smile-multi-factor-authentication</guid>
+            <category><![CDATA[Auth]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 15 Nov 2020 16:00:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[WTF does headless mean?]]></title>
+            <description><![CDATA[I realised last night that I&#8217;ve been writing a lot about why Headless WordPress is a great solution but haven&#8217;t been clear about what headless actually means. Every website or application that you use is made up of at least two components. There is the content &#8211; the words, articles, pictures and assets &#8211; and [&hellip;]
+]]></description>
+            <link>/posts/wtf-does-headless-mean</link>
+            <guid isPermaLink="false">/posts/wtf-does-headless-mean</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 31 Oct 2020 16:26:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Headless WordPress: REST or GraphQL]]></title>
+            <description><![CDATA[One of the strengths of using WordPress as your content backend is that you have a lot of choice. You can decide where to host your instance, how to organise your content types and how many different users and roles you want to introduce. I don&#8217;t know if it is unique but I find it [&hellip;]
+]]></description>
+            <link>/posts/headless-wordpress-rest-or-graphql</link>
+            <guid isPermaLink="false">/posts/headless-wordpress-rest-or-graphql</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 29 Oct 2020 15:47:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8 Advantages of Headless WordPress]]></title>
+            <description><![CDATA[I&#8217;m a big fan of the JAMStack and WordPress. I think they are excellent companions, adding value both to content creators and developers. I&#8217;m glad to say, I&#8217;m not alone. However, it doesn&#8217;t take long before you come across the view that this combination is needlessly complicated. I&#8217;d like to share a bit about what [&hellip;]
+]]></description>
+            <link>/posts/advantages-of-headless-wordpress</link>
+            <guid isPermaLink="false">/posts/advantages-of-headless-wordpress</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 29 Oct 2020 15:28:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating calendar events from a Google form]]></title>
+            <description><![CDATA[I think being able to code is a super power. I also think that we are often too quick to use this super power. A week ago, a friend who works for a charity approached me. They were using a Google form to collect details for meetings and then manually creating calendar events. Is it [&hellip;]
+]]></description>
+            <link>/posts/creating-calendar-events-from-a-google-form</link>
+            <guid isPermaLink="false">/posts/creating-calendar-events-from-a-google-form</guid>
+            <category><![CDATA[Low Code]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 28 Oct 2020 15:34:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How are JavaScript and TypeScript related?]]></title>
+            <description><![CDATA[TypeScript is a typed superset of JavaScript and, when compiled (or transpiled), emits pure JavaScript. What&#8217;s that mean? If there are no syntatic errors in your JS, it is valid TS Migrating existing codebases can be done piece by piece All JavaScript is TypeScript but not all TypeScript is JavaScript All this means that you [&hellip;]
+]]></description>
+            <link>/posts/how-are-javascript-and-typescript-related</link>
+            <guid isPermaLink="false">/posts/how-are-javascript-and-typescript-related</guid>
+            <category><![CDATA[Learning]]></category>
+            <category><![CDATA[TypeScript]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 16 Oct 2020 14:48:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Authentication with Next.js API routes]]></title>
+            <description><![CDATA[There is so much to say about authentication, right? Not only that but everyone seems to have very definite opinions about the perfect setup. Since most of my time is spent building rapid, digital prototypes &#8211; I tend to find myself leaning on 3rd party services a lot. Specifically for those parts of development which [&hellip;]
+]]></description>
+            <link>/posts/authentication-with-nextjs-api-routes</link>
+            <guid isPermaLink="false">/posts/authentication-with-nextjs-api-routes</guid>
+            <category><![CDATA[Auth]]></category>
+            <category><![CDATA[Next]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 15 Oct 2020 14:29:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dealing with a database with Next.js API routes]]></title>
+            <description><![CDATA[With Next API routes serverless functions become much more accessible. But in a serverless world, maintaining a connection with a database isn&#8217;t achieved in the same way. How did this work before? Previously we may have provisioned, maintained and benefited from persistent servers. When our server starts, it connects with and maintains a connection to [&hellip;]
+]]></description>
+            <link>/posts/dealing-with-a-database-with-nextjs-api-routes</link>
+            <guid isPermaLink="false">/posts/dealing-with-a-database-with-nextjs-api-routes</guid>
+            <category><![CDATA[Next]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 13 Oct 2020 14:37:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Day 1 – Up and Running]]></title>
+            <description><![CDATA[I love learning new things. Often, when I have a lot on I get excited about a new learning adventure. Right now, I have a lot on. This, then, seems a perfect time to start a new learning adventure! As I’ve mentioned before here, when it comes to learning new things I have three pillars [&hellip;]
+]]></description>
+            <link>/posts/day-1-up-and-running</link>
+            <guid isPermaLink="false">/posts/day-1-up-and-running</guid>
+            <category><![CDATA[Learning]]></category>
+            <category><![CDATA[TypeScript]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 12 Oct 2020 14:36:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[New Learning Adventure – Typescript]]></title>
+            <description><![CDATA[I love learning new things. Often, when I have a lot on I get excited about a new learning adventure. Right now, I have a lot on. This, then, seems a perfect time to start a new learning adventure! As I’ve mentioned before here, when it comes to learning new things I have three pillars [&hellip;]
+]]></description>
+            <link>/posts/new-learning-adventure-typescript</link>
+            <guid isPermaLink="false">/posts/new-learning-adventure-typescript</guid>
+            <category><![CDATA[Learning]]></category>
+            <category><![CDATA[TypeScript]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 11 Oct 2020 14:55:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Keeping secrets safe with Next.js API routes]]></title>
+            <description><![CDATA[Have you ever been tempted to hand over your car keys to a stranger? How about your Facebook login details? Your debit card PIN? Each of these are ridiculous scenarios &#8211; you wouldn&#8217;t even contemplate them. When your application contacts other services on your behalf, it has to prove that it is allowed. That you&#8217;ve [&hellip;]
+]]></description>
+            <link>/posts/keeping-secrets-safe-with-nextjs-api-routes</link>
+            <guid isPermaLink="false">/posts/keeping-secrets-safe-with-nextjs-api-routes</guid>
+            <category><![CDATA[Next]]></category>
+            <category><![CDATA[Security]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 10 Oct 2020 14:52:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What are Next.js API routes all about?]]></title>
+            <description><![CDATA[In a previous post, I discussed why we need servers for our frontend applications. There are lots of reasons &#8211; security, performance and convenience being high on the list. The React developer is left open to choose for themselves whichever backend most appeals to them. This is freeing but can add to the decision fatigue [&hellip;]
+]]></description>
+            <link>/posts/what-are-nextjs-api-routes-all-about</link>
+            <guid isPermaLink="false">/posts/what-are-nextjs-api-routes-all-about</guid>
+            <category><![CDATA[Next]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 09 Oct 2020 15:02:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why does your frontend application need a server?]]></title>
+            <description><![CDATA[I started my development career working with monolithic frameworks like Django (in Python) and Drupal (in PHP). Now, I&#8217;m paid almost entirely to build React applications. It was strange for me when I started this journey to properly understand that React only deals with part of building an application. I wonder if you&#8217;ve considered this [&hellip;]
+]]></description>
+            <link>/posts/why-does-your-frontend-application-need-a-server</link>
+            <guid isPermaLink="false">/posts/why-does-your-frontend-application-need-a-server</guid>
+            <category><![CDATA[Next]]></category>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 08 Oct 2020 15:07:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Got a ton of server and database issues – is headless WordPress the answer?]]></title>
+            <description><![CDATA[WordPress is an often overlooked and underrated tool in a content toolkit. Over the past 17 years, Matt and the team at Automattic have built a product that is trusted by many. The ubiquity of WP means that most people have had some exposure to it already and for less trafficed sites that works out [&hellip;]
+]]></description>
+            <link>/posts/got-a-ton-of-server-and-database-issues-is-headless-wordpress-the-answer</link>
+            <guid isPermaLink="false">/posts/got-a-ton-of-server-and-database-issues-is-headless-wordpress-the-answer</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 05 Oct 2020 15:00:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Discord Inktober Bot (Netlify functions to the rescue!)]]></title>
+            <description><![CDATA[In 2009 Jake Parker started Inktober. It was a challenge to improve inking skills. Based on single word prompts, he inked and posted a picture every day. It&#8217;s become a pretty popular thing. I am on some awesome Discord servers that have Inktober channels. Each day, a member shares the single word prompt and encourages [&hellip;]
+]]></description>
+            <link>/posts/discord-inktober-bot</link>
+            <guid isPermaLink="false">/posts/discord-inktober-bot</guid>
+            <category><![CDATA[Serverless]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 04 Oct 2020 14:49:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating an upload route in Express]]></title>
+            <description><![CDATA[When uploading files to a server, there are common tasks you will want to carry out. Check the file type, move the file to a final location, check the filesize and file name. You could use the filesystem module (fs) and write some helper functions to do this. Instead, you could use a middleware available [&hellip;]
+]]></description>
+            <link>/posts/creating-an-upload-route-in-express</link>
+            <guid isPermaLink="false">/posts/creating-an-upload-route-in-express</guid>
+            <category><![CDATA[Express]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 02 Oct 2020 14:46:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Developing an Express API]]></title>
+            <description><![CDATA[I&#8217;m working on a collection of lessons on egghead.io around Express. I&#8217;ll post them here as I put them up and add some commentary around them. The first one is about getting setup in Express and using Nodemon to auto-reload the server when the files are saved. This really speeds up development. Nodemon monitors your [&hellip;]
+]]></description>
+            <link>/posts/developing-an-express-api</link>
+            <guid isPermaLink="false">/posts/developing-an-express-api</guid>
+            <category><![CDATA[Express]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 02 Oct 2020 14:45:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why do people stop learning?]]></title>
+            <description><![CDATA[I love learning. I have always loved learning. I get a buzz when I understand something new or expand my fact balls in some direction or other. I find it hard to believe everyone doesn&#8217;t get this buzz but the evidence seems to suggest they don&#8217;t. When I was a teacher, I loved finding out [&hellip;]
+]]></description>
+            <link>/posts/why-do-people-stop-learning</link>
+            <guid isPermaLink="false">/posts/why-do-people-stop-learning</guid>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 01 Oct 2020 15:06:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Headless WordPress: Where should you host the WordPress instance?]]></title>
+            <description><![CDATA[Hey, have you heard about headless WordPress? Already convinced? Was it because this way your content creators have a familar and powerful interface to do their work? Or that your developers can use modern frameworks to create amazing experiences for your users? Maybe it was because of security? You no longer need to worry about [&hellip;]
+]]></description>
+            <link>/posts/where-should-you-host-the-wordpress-instance</link>
+            <guid isPermaLink="false">/posts/where-should-you-host-the-wordpress-instance</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 30 Sep 2020 15:03:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Is Blitz.js worth your time?]]></title>
+            <description><![CDATA[Have you heard about Blitz.js yet? It&#8217;s a framework built on top of Next that makes building applications quicker and easier. That&#8217;s what the pitch claims anyway! You can find out more on their site on which they claim to be The React Fullstack Framework. I decided to stream me working through the tutorial on [&hellip;]
+]]></description>
+            <link>/posts/is-blitz-js-worth-your-time</link>
+            <guid isPermaLink="false">/posts/is-blitz-js-worth-your-time</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 26 Sep 2020 14:50:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to make sure your Express API doesn’t get abused?]]></title>
+            <description><![CDATA[Making applications for the web is a lot of fun. Sadly, there is always a risk that bad actors will abuse them. Either using them too much or using them for nefarious means. For most hobby projects that isn&#8217;t too much of a problem. Once we start dealing with user data though, we need to [&hellip;]
+]]></description>
+            <link>/posts/make-sure-express-api-is-not-abused</link>
+            <guid isPermaLink="false">/posts/make-sure-express-api-is-not-abused</guid>
+            <category><![CDATA[Auth]]></category>
+            <category><![CDATA[Express]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 23 Sep 2020 14:53:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Learning React]]></title>
+            <description><![CDATA[I think React is great &#8211; I love building it particularly using a framework like Next or Gatsby which provide helpful tooling and structure out of the box. When learning React though it can be hard to find resources that are useful, timely and up-to-date. This is always challenging when approaching a new learning challenge. [&hellip;]
+]]></description>
+            <link>/posts/learning-react</link>
+            <guid isPermaLink="false">/posts/learning-react</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 29 Aug 2020 14:53:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Adding todos with SMS]]></title>
+            <description><![CDATA[Recently, I&#8217;ve been moving my life over to Emacs. This started before the summer when Ian Jones mentioned org-roam as an alternative to Roam. Having enjoyed Roam but also loving owning my own data and knowing where it is, I tried it out. I described Emacs as a pair of old slippers last week (my [&hellip;]
+]]></description>
+            <link>/posts/emacs-sms-todo</link>
+            <guid isPermaLink="false">/posts/emacs-sms-todo</guid>
+            <category><![CDATA[Emacs]]></category>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 21 Aug 2020 14:41:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3 Pillars of Learning]]></title>
+            <description><![CDATA[I&#8217;ve been doing some more reflecting about learning recently (see previous reflections here and here). As I was formulating these thoughts I realised that I find three things in particular helpful for me on my learning journeys. I take a lot of these journeys and I want to keep on taking them. I also want [&hellip;]
+]]></description>
+            <link>/posts/pillars-of-learning</link>
+            <guid isPermaLink="false">/posts/pillars-of-learning</guid>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 30 Jul 2020 14:57:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Which programming language should I choose?]]></title>
+            <description><![CDATA[I&#8217;m largely a self-taught developer. Before I started working with code professionally I would often read a new programming book, enroll in a new MOOC or go down a rabbit hole of learning and reading and thinking. While I love learning this wasn&#8217;t helpful for me. I was living with a strong sense of shiny [&hellip;]
+]]></description>
+            <link>/posts/which-programming-language-should-i-choose</link>
+            <guid isPermaLink="false">/posts/which-programming-language-should-i-choose</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 25 Jul 2020 15:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is in a newsletter?]]></title>
+            <description><![CDATA[When starting to create content online and think about how to grow an audience and monetize, newsletters are touted as the best possible approach. The argument goes that email has been around and will be around for a lot longer to come. You gain trust by being in someone’s inbox and stay top of mind. [&hellip;]
+]]></description>
+            <link>/posts/what-is-in-a-newsletter</link>
+            <guid isPermaLink="false">/posts/what-is-in-a-newsletter</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 14 Jul 2020 14:56:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cancelling The Master Branch]]></title>
+            <description><![CDATA[Language has meaning. Words have meaning. The metaphors we use have meaning. Even if we feel we are careful and try to communicate peacefully, we don&#8217;t need to leverage language that is triggering or unhelpful. The tech community have been reflecting on ways in which language has not been inclusive and has been alienating to [&hellip;]
+]]></description>
+            <link>/posts/cancelling-the-master-branch</link>
+            <guid isPermaLink="false">/posts/cancelling-the-master-branch</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 13 Jul 2020 14:31:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Adding Toast Notifications to Next Apps]]></title>
+            <description><![CDATA[Toast notifications are an awesome way to inform your users of events without moving them off the page and disturbing their flow. These messages can be positive or negative, communicating success or failure. There are a number of excellent libraries in React to allow this to happen. A lot of them require using a specific [&hellip;]
+]]></description>
+            <link>/posts/adding-toast-notifications-to-next-app</link>
+            <guid isPermaLink="false">/posts/adding-toast-notifications-to-next-app</guid>
+            <category><![CDATA[Next]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 27 May 2020 14:24:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Webmentions and Campfires]]></title>
+            <description><![CDATA[I grew up in a family with a number of blind relatives. My Mum&#8217;s siblings all had sight problems and so did some of my cousins. As a child, I took it for granted that each of those aunts, uncles and cousins knew when I was talking to them. After all, I was looking at [&hellip;]
+]]></description>
+            <link>/posts/webmentions-and-campfires</link>
+            <guid isPermaLink="false">/posts/webmentions-and-campfires</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 06 May 2020 15:01:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is a digital garden?]]></title>
+            <description><![CDATA[Each year, my wife&#8217;s parents buy us a membership to the National Trust for the family. Granted, we&#8217;re not getting much use out of it this year, but normally once or twice a week we&#8217;d head with the boys to a property and garden somewhere near us. Once there, we&#8217;d have a walk, probably do [&hellip;]
+]]></description>
+            <link>/posts/what-is-a-digital-garden</link>
+            <guid isPermaLink="false">/posts/what-is-a-digital-garden</guid>
+            <category><![CDATA[Digital Gardening]]></category>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 01 May 2020 15:03:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Streamed and Released a npm package!]]></title>
+            <description><![CDATA[I mentioned on here earlier in the week that I was going to be doing a live stream on Monday. That happened and it was awesome. We even managed to publish what we&#8217;d done to npm within our 2 hour time window! There were 5 of us on the stream and about 15-20 people in [&hellip;]
+]]></description>
+            <link>/posts/streamed-and-released-a-npm-package</link>
+            <guid isPermaLink="false">/posts/streamed-and-released-a-npm-package</guid>
+            <category><![CDATA[Digital Gardening]]></category>
+            <category><![CDATA[Gatsby]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 29 Apr 2020 14:58:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mob Coding: Gatsby Digital Garden]]></title>
+            <description><![CDATA[Last week, I mentioned I&#8217;d been inspired by Maggie and Ian&#8217;sand was attempting to build a file based wiki that is compiled by Gatsby. I managed to get the first version of my prototype out and Ian got his first version of his version of notes out this week as well. Tomorrow evening (27th April) [&hellip;]
+]]></description>
+            <link>/posts/gatsby-digital-garden-mob-programming</link>
+            <guid isPermaLink="false">/posts/gatsby-digital-garden-mob-programming</guid>
+            <category><![CDATA[Gatsby]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 26 Apr 2020 14:39:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reflecting on the KCD React Marathon]]></title>
+            <description><![CDATA[I studied Maths and Theoretical Physics at Uni, trained as a Maths teacher and spent over a decade teaching Maths to 11-18 year olds. I helped train teachers, led training and had good results over the years. When I left the classroom to transition to developing full-time I expected I&#8217;d encountered the best teaching had [&hellip;]
+]]></description>
+            <link>/posts/reflecting-on-the-kcd-react-marathon</link>
+            <guid isPermaLink="false">/posts/reflecting-on-the-kcd-react-marathon</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 24 Apr 2020 14:51:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – Building React Apps Part 2]]></title>
+            <description><![CDATA[There was a lot of setup today. Kent had done a lot of amazing work to be able to make the workshops work more smoothly and has a great CLI tool for switching between lessons and branches. Context After all I&#8217;ve looked at over the past month, this was a great opportunity to put the [&hellip;]
+]]></description>
+            <link>/posts/kcd-building-react-apps-2</link>
+            <guid isPermaLink="false">/posts/kcd-building-react-apps-2</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2020 13:52:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – React Suspense]]></title>
+            <description><![CDATA[So, this has been a wild ride through React. We&#8217;ve gone deep into the library and touched on so many different aspects of workflow, technical points and general community exposure. This has all been happening while lockdown has ramped up. That has made it look pretty strange &#8211; I&#8217;ve been doing these for several evenings [&hellip;]
+]]></description>
+            <link>/posts/kcd-react-suspense</link>
+            <guid isPermaLink="false">/posts/kcd-react-suspense</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 20 Apr 2020 14:10:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Premature Optimization]]></title>
+            <description><![CDATA[I&#8217;ve spent a large chunk of the weekend building a wiki prototype (first attempts are here). I&#8217;ve been thinking a lot of about the purpose of this, the artifacts of thoughts and thinking and wondering whether this is an example of premature optimization. When I was studying for my A-Levels, I spent a long time [&hellip;]
+]]></description>
+            <link>/posts/premature-optimization</link>
+            <guid isPermaLink="false">/posts/premature-optimization</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 19 Apr 2020 14:58:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yak Shaving]]></title>
+            <description><![CDATA[Inspired by Maggie Appleton&#8217;s tweet this week, I&#8217;ve been thinking again about digital gardens. I love learning and I love learning in public (I&#8217;ve written about that elsewhere on this blog). I&#8217;ve read and thought a lot about that over the past 15 years, as an educator and a learner, and I&#8217;ve been thinking about [&hellip;]
+]]></description>
+            <link>/posts/yak-shaving</link>
+            <guid isPermaLink="false">/posts/yak-shaving</guid>
+            <category><![CDATA[Digital Gardening]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 18 Apr 2020 15:26:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – React Performance]]></title>
+            <description><![CDATA[This series of workshops has been a bit of a marathon. There has been so much content and so much helpful input. Before I started, I think I would have reckoned I was an intermediate React dev &#8211; now, I think I am an intermediate React dev. My understanding of the whole React ecosystem has [&hellip;]
+]]></description>
+            <link>/posts/kcd-react-performance</link>
+            <guid isPermaLink="false">/posts/kcd-react-performance</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 08 Apr 2020 14:08:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – Advanced Patterns]]></title>
+            <description><![CDATA[I&#8217;m over halfway through this masterclass on React with Kent. This has been a pretty deep dive and I&#8217;m finding my day-to-day development massively enriched by what I&#8217;ve learnt so far. This time we&#8217;re looking at patterns in React. I&#8217;m used to patterns from PHP and Python but I don&#8217;t necessarily have a big awareness [&hellip;]
+]]></description>
+            <link>/posts/kcd-advanced-patterns</link>
+            <guid isPermaLink="false">/posts/kcd-advanced-patterns</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 06 Apr 2020 13:58:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – Advanced Hooks]]></title>
+            <description><![CDATA[Here we go again! Round 4! This time we&#8217;re diving into Advanced Hooks. As the whole world seems to have moved onto Zoom my connection seems to be getting worse and worse. So, I struggled with a lot of lag today. I don&#8217;t know if that was because everyone in my area was online or [&hellip;]
+]]></description>
+            <link>/posts/advanced-hooks</link>
+            <guid isPermaLink="false">/posts/advanced-hooks</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 01 Apr 2020 13:54:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – Building React Apps Part 1]]></title>
+            <description><![CDATA[This is the 3rd of 8 workshops and is a new one for Kent. He kicked off and was aware the timings might be a bit off because this is the first time through. This is going to be a big one and there is probably enough in the exercises that he didn&#8217;t think we&#8217;d [&hellip;]
+]]></description>
+            <link>/posts/building-react-apps</link>
+            <guid isPermaLink="false">/posts/building-react-apps</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2020 14:00:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – React Hooks]]></title>
+            <description><![CDATA[Today was my second workshop with Kent &#8211; there are 8 over the next number of weeks and I&#8217;m going to blog briefly about each of them. I aim to return to these posts and flesh them out more over time &#8211; potentially making individual posts with the sections that get longer. For now, these [&hellip;]
+]]></description>
+            <link>/posts/react-hooks</link>
+            <guid isPermaLink="false">/posts/react-hooks</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2020 15:06:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kent C. Dodds – React Fundamentals Workshop]]></title>
+            <description><![CDATA[Lots of tutorials and guides tend to miss the React fundamentals and dive straight into actually building components and apps. Often they throw in Redux and other technologies at the get-go which can make truly grasping the underlying concepts more challenging. This workshop dives in and looks at those parts that are sometimes overlooked. One [&hellip;]
+]]></description>
+            <link>/posts/react-fundamentals</link>
+            <guid isPermaLink="false">/posts/react-fundamentals</guid>
+            <category><![CDATA[React]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 24 Mar 2020 15:11:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Advanced SQL Workshop]]></title>
+            <description><![CDATA[A few weeks ago, I attended a workshop on Advanced SQL given by Tyler Clark. It was a really interesting evening. Here were some of the things I learnt. I do plan on returning to this and updating it &#8211; it might end up being in the wiki section when it comes online though. How [&hellip;]
+]]></description>
+            <link>/posts/advanced-sql</link>
+            <guid isPermaLink="false">/posts/advanced-sql</guid>
+            <category><![CDATA[SQL]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 27 Feb 2020 15:27:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Getting around in SQL]]></title>
+            <description><![CDATA[On Thursday evening, I&#8217;ll be taking part in another egghead.io workshop. This time the workshop will be delivered by Tyler Clark and will be on Advanced SQL (there is still time to sign up here). In preparation, I watched Tyler&#8217;s first course on SQL that is hosted on egghead. It was really interesting and, though [&hellip;]
+]]></description>
+            <link>/posts/basic-sql-navigation</link>
+            <guid isPermaLink="false">/posts/basic-sql-navigation</guid>
+            <category><![CDATA[SQL]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 10 Feb 2020 15:55:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Migrating from Create-React-App to Gatsby Stream]]></title>
+            <description><![CDATA[I attended a live stream on Friday put on by egghead and delivered by Khaled Garbaya. Over 90 minutes, follow Khaled as he walks through a process for migrating an existing application from Create-React-App to Gatsby. The event was billed as a way to migrate existing apps from create-react-app to Gatsby which sounded really interesting. [&hellip;]
+]]></description>
+            <link>/posts/migrating-gatsby-stream</link>
+            <guid isPermaLink="false">/posts/migrating-gatsby-stream</guid>
+            <category><![CDATA[Gatsby]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 02 Feb 2020 15:54:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why do I keep learning?]]></title>
+            <description><![CDATA[I’ve been reflecting a lot on learning recently. Both about the role it play in my life and the role it plays in society. My last post about this was considering why people stop learning. I know I’m not alone in wanting to learn new things. The delight of discovering a new connection or cresting [&hellip;]
+]]></description>
+            <link>/posts/why-do-i-learn</link>
+            <guid isPermaLink="false">/posts/why-do-i-learn</guid>
+            <category><![CDATA[Learning]]></category>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 24 Jan 2020 16:05:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Some learnings from my first 8 weeks freelancing]]></title>
+            <description><![CDATA[It hasn&#8217;t been that long since I made the jump to freelancing. I spent a very happy and formative 18 months working with the awesome team at Cogapp. I learnt so much, not just about code but more importantly how to be part of a business run by humans for the benefit of humans. Having [&hellip;]
+]]></description>
+            <link>/posts/5-things-learnt-freelancing</link>
+            <guid isPermaLink="false">/posts/5-things-learnt-freelancing</guid>
+            <category><![CDATA[Freelancing]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 26 Nov 2019 14:37:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python Geocoder: A Guide to Managing Locations in Your Apps]]></title>
+            <description><![CDATA[The original version of this post appeared at https://stackify.com/python-geocoder-a-guide-to-managing-locations-in-your-apps/ A great thing about building applications for the internet is that people from all around the world can benefit from your effort. You can gather new users from Taiwan to Colorado and meet their needs just as effectively. In this global context, it can be good [&hellip;]
+]]></description>
+            <link>/posts/python-geocoder-a-guide-to-managing-locations-in-your-apps</link>
+            <guid isPermaLink="false">/posts/python-geocoder-a-guide-to-managing-locations-in-your-apps</guid>
+            <category><![CDATA[Python]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 13 Jul 2019 14:21:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started Quickly with Laravel Logging]]></title>
+            <description><![CDATA[The original version of this post first appeared at https://www.scalyr.com/blog/getting-started-quickly-laravel-logging/ You probably know that feeling when something is broken and you don’t know why. It might be a simple bug, but it also might be something more serious. That uncertainty can be frustrating and nerve-wracking. We can improve our situation with logs. For any application [&hellip;]
+]]></description>
+            <link>/posts/laravel-logging</link>
+            <guid isPermaLink="false">/posts/laravel-logging</guid>
+            <category><![CDATA[Laravel]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 14 May 2019 14:13:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating a Drupal Patch]]></title>
+            <description><![CDATA[Somehow, I&#8217;ve been developing in Drupal for over a year now. I&#8217;ve worked with Drupal 7 and Drupal 8 sites, added functionality to existing sites and worked on teams building a site for a client from scratch. Drupal has a large and vibrant open-source community. It is a very powerful and complex piece of software [&hellip;]
+]]></description>
+            <link>/posts/drupal-patch</link>
+            <guid isPermaLink="false">/posts/drupal-patch</guid>
+            <category><![CDATA[PHP]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sun, 14 Apr 2019 14:18:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protecting Credentials]]></title>
+            <description><![CDATA[When working with any web application that requires a database for persistence, having access to the relevant credentials is vital. Keeping those same credentials in plain-text in a code repository is insecure and having them accessible in the web-root can also pose security risks. To get round this, I&#8217;ve used the following approach on the [&hellip;]
+]]></description>
+            <link>/posts/protecting-credentials</link>
+            <guid isPermaLink="false">/posts/protecting-credentials</guid>
+            <category><![CDATA[Auth]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 13 Feb 2019 15:20:30 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -7,19 +7,19 @@ export default function BlogCard({ blog, description = true, className }) {
     <div
       className={``}
     >
-      <Link href={blog.path} key={blog.slug}>
+      <Link href={`/posts/${blog?.slug}`} key={blog?.slug}>
         <a>
           <div className={`my-6`}>
 
             <Image
-              src={getMetaImage(blog.title.length)}
+              src={getMetaImage(blog?.title || "")}
               height="200"
               width="400"
             />
             <div className="px-2 -mt-4">
               {description && (
                 <>
-                  <h2 className="font-bold">{blog.title}</h2>
+                  <h2 className="font-bold">{blog?.title}</h2>
                   {/* <p>{blog.description}</p> */}
                 </>
               )}
