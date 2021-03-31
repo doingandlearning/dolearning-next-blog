@@ -110,3 +110,20 @@ hr {
   margin-top: 16px;
   margin-bottom: 10px;
 }
+
+figcaption {
+  color: #555d66;
+  font-size: 16px;
+  text-align: center;
+  @apply py-4
+}
+
+.has-drop-cap:first-letter {
+  float: left;
+  font-size: 6.4em;
+  line-height: .68;
+  font-weight: 100;
+  margin: .05em .1em 0 0;
+  text-transform: uppercase;
+  font-style: normal;
+}

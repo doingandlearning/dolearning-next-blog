@@ -29,8 +29,6 @@ export default function BlogPost({ post, relatedPosts }) {
   const socialImageUrl = getMetaImage(title);
 
   const { posts: relatedPostsList, title: relatedPostsTitle } = relatedPosts;
-  console.log(relatedPosts)
-
   return (
     <Layout>
       <NextSeo
@@ -78,15 +76,12 @@ export default function BlogPost({ post, relatedPosts }) {
           <EmailForm />
         </div>
       </div>
-      <div>
+      <div className="mt-8">
         {!!relatedPostsList.length && (
           <div className="text-center">
             {relatedPostsTitle.name ? (
               <span className="font-bold">
-                More from{' '}
-                <Link href={relatedPostsTitle.link}>
-                  <a>{relatedPostsTitle.name}</a>
-                </Link>
+                More Posts about {relatedPostsTitle.name}
               </span>
             ) : (
               <span>More Posts</span>
