@@ -8,6 +8,7 @@ import { getNavigationPages } from 'lib/pages';
 import { getCategories } from 'lib/categories';
 import useApolloClient from 'hooks/use-apollo-client';
 
+import "prismjs/themes/prism-tomorrow.css";
 function App({ Component, pageProps = {}, metadata, navigation, recentPosts, categories }) {
   const apolloClient = useApolloClient(pageProps.initialApolloState);
 

@@ -2,7 +2,12 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Head from "next/head";
 
+import Prism from "prismjs";
+import { useEffect } from "react";
+
 export default function Layout({ children, pageTitle, description }) {
+  useEffect(() => Prism.highlightAll(), [])
+
   return (
     <>
       <Head>
