@@ -3,6 +3,10 @@
     {
       "source": "/wiki",
       "destination": "/garden"
+    },
+    {
+      "source": "/workshops/learnetto-wordpress-next",
+      "destination": "https://learnetto.com/tutorials/how-to-use-headless-wordpress-with-next-js-and-graphql"
     }
   ]
 }
