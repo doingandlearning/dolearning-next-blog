@@ -211,3 +211,55 @@ export function getQueryPageByUri(uri) {
     }
   `;
 }
+
+export function getQueryFrontPanelById(id) {
+  return gql`query {
+    page(id: "${id}") {
+      frontPanelFields {
+        fieldGroupName
+        text
+        title
+        button1 {
+          label
+          link
+        }
+        button2 {
+          label
+          link
+        }
+        posts {
+          post1 {
+            ... on Post {
+              id
+              slug
+              title
+            }
+          }
+          post2 {
+            ... on Post {
+              id
+              slug
+              title
+            }
+          }
+          post3 {
+            ... on Post {
+              id
+              slug
+              title
+            }
+          }
+          post4 {
+            ... on Post {
+              id
+              slug
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+
+  `
+}
