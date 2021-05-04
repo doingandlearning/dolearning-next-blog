@@ -27,7 +27,7 @@ export default function Home({ fields }) {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <div>
-            <div className="flex justify-between bg-dlgrey flex-col md:flex-row py-16">
+            <div className="flex justify-between bg-dlgrey flex-col md:flex-row pt-16">
               <div className="flex flex-row md:flex-col justify-center mx-8 my-2">
                 {headerFields.socialLinks.map((social, idx) => <div key={idx}>
                   <a href={social.link}>
@@ -55,7 +55,7 @@ export default function Home({ fields }) {
             </div>
             <div className="flex flex-col md:flex-row  bg-dlgrey">
               <button
-                className="text-white bg-primary rounded-lg my-8 md:ml-32 mx-4 py-4  px-3 text-xl border-2 hover:border-primary hover:text-primary hover:bg-white"
+                className="text-white bg-primary rounded-lg my-8 md:ml-40 mx-4 py-4  px-3 text-xl border-2 hover:border-primary hover:text-primary hover:bg-white"
                 onClick={() => {
                   setMailingList("1697448");
                   setShowModal(true);
