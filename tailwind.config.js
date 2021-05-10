@@ -3,7 +3,12 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: {
+    content: [
+      './pages/**/*.js',
+      './node_modules/flatpickr/**/*.js',
+    ],
+  },
   theme: {
     extend: {
       fontSize: {
