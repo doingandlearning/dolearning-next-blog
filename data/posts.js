@@ -99,6 +99,10 @@ export function getQueryPostBySlug(slug) {
         title
         slug
         isSticky
+        mailingFormFields {
+          formId
+          text
+        }
       }
     }
   `;

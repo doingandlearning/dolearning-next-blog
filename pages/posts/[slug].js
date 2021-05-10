@@ -19,7 +19,7 @@ export default function BlogPost({ post, relatedPosts }) {
   const { metadata, homepage } = useSite();
   const { title: siteTitle } = metadata;
 
-  const { title, content, excerpt, slug, date, author, categories, modifiedGmt, featuredImage, isSticky = false } = post;
+  const { title, content, excerpt, slug, date, author, categories, modifiedGmt, featuredImage, isSticky = false, mailingFormFields, ...rest } = post;
 
   const metadataOptions = {
     compactCategories: false,
@@ -73,7 +73,7 @@ export default function BlogPost({ post, relatedPosts }) {
           Last updated on {format(new Date(modifiedGmt), "EEEE do MMMM, y")}.
         </p>
         <div className="bg-primary w-full flex justify-center mx-auto mb-4">
-          <EmailForm />
+          <EmailForm formid={mailingFormFields.formId || 1697448} children={mailingFormFields.text || null} />
         </div>
       </div>
       <div className="mt-8">

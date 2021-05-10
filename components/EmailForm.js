@@ -23,7 +23,7 @@ const PostSubmissionMessage = ({ response }) => {
 };
 
 export default function SignUp({
-  formid = process.env.MAIN_CONVERTKIT_FORM,
+  formid = 1697448,
   children,
 }) {
   const [submitted, setSubmitted] = React.useState(false);
