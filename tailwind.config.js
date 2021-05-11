@@ -4,10 +4,10 @@ module.exports = {
     // purgeLayersByDefault: true,
   },
   purge: {
-    content: [
-      './pages/**/*.js',
-      './node_modules/flatpickr/**/*.js',
-    ],
+    // content: [
+    //   './pages/**/*.js',
+    //   './node_modules/flatpickr/**/*.js',
+    // ],
   },
   theme: {
     extend: {
