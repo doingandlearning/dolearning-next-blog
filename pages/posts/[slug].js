@@ -1,25 +1,43 @@
 import Link from "next/link";
-import { format } from "date-fns";
-import { NextSeo } from 'next-seo';
+
+import { NextSeo } from "next-seo";
 
 import Layout from "@components/Layout";
-import EmailForm from "@components/EmailForm"
+import EmailForm from "@components/EmailForm";
 
 import components from "@components/Components";
-import BlogCard from "@components/BlogCard"
+import BlogCard from "@components/BlogCard";
 
-import { getPostBySlug, getAllPosts, getRelatedPosts, postPathBySlug } from 'lib/posts';
-import { categoryPathBySlug } from 'lib/categories';
-import { formatDate } from 'lib/datetime';
+import {
+  getPostBySlug,
+  getAllPosts,
+  getRelatedPosts,
+  postPathBySlug,
+} from "lib/posts";
+import { categoryPathBySlug } from "lib/categories";
+import { formatDate } from "lib/datetime";
 // import { ArticleJsonLd } from 'lib/json-ld';
-import useSite from 'hooks/use-site';
+import useSite from "hooks/use-site";
 import { getMetaImage } from "lib/image";
 
 export default function BlogPost({ post, relatedPosts }) {
   const { metadata, homepage } = useSite();
   const { title: siteTitle } = metadata;
 
-  const { title, content, excerpt, slug, date, author, categories, modifiedGmt, featuredImage, isSticky = false, mailingFormFields, ...rest } = post;
+  const {
+    title,
+    content,
+    excerpt,
+    slug,
+    date,
+    author,
+    categories,
+    modifiedGmt,
+    featuredImage,
+    isSticky = false,
+    mailingFormFields,
+    ...rest
+  } = post;
 
   const metadataOptions = {
     compactCategories: false,
@@ -43,14 +61,14 @@ export default function BlogPost({ post, relatedPosts }) {
               width: 800,
               height: 600,
               alt: `Blog card for ${title}`,
-            }
+            },
           ],
           site_name: "Kevin Cunningham",
         }}
         twitter={{
-          handle: '@dolearning',
-          site: 'https://www.kevincunningham.co.uk',
-          cardType: 'summary_large_image',
+          handle: "@dolearning",
+          site: "https://www.kevincunningham.co.uk",
+          cardType: "summary_large_image",
         }}
       />
       <div>
@@ -73,7 +91,10 @@ export default function BlogPost({ post, relatedPosts }) {
           Last updated on {format(new Date(modifiedGmt), "EEEE do MMMM, y")}.
         </p>
         <div className="bg-primary w-full flex justify-center mx-auto mb-4">
-          <EmailForm formid={mailingFormFields.formId || 1697448} children={mailingFormFields.text || null} />
+          <EmailForm
+            formid={mailingFormFields.formId || 1697448}
+            children={mailingFormFields.text || null}
+          />
         </div>
       </div>
       <div className="mt-8">
@@ -93,7 +114,7 @@ export default function BlogPost({ post, relatedPosts }) {
                   <div key={idx}>
                     <BlogCard blog={post} showTitle={false} />
                   </div>
-                )
+                );
               })}
             </div>
           </div>
@@ -102,7 +123,6 @@ export default function BlogPost({ post, relatedPosts }) {
     </Layout>
   );
 }
-
 
 export async function getStaticProps({ params = {} } = {}) {
   const { post } = await getPostBySlug(params?.slug);

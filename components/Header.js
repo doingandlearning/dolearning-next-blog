@@ -22,7 +22,13 @@ export default function Header() {
     <div className="container mx-auto my-auto px-4 sm:px-6 lg:px-8 bg-white p-4 flex justify-around md:justify-between">
       <div className="mx-0 md:mx-12 flex">
         <Image src="/brain.jpg" height="40" width="40" />
-        <p className="pl-4 font-normal hidden sm:inline">Kevin Cunningham<span className="hidden md:inline"> (<a href="https://twitter.com/dolearning">@dolearning</a>)</span></p>
+        <p className="pl-4 font-normal hidden sm:inline">
+          Kevin Cunningham
+          <span className="hidden md:inline">
+            {" "}
+            (<a href="https://twitter.com/dolearning">@dolearning</a>)
+          </span>
+        </p>
       </div>
       <div className="flex lg:w-1/5 md:w-1/3 w-1/2 ml-6 justify-between my-auto font-normal">
         <ActiveLink href="/">
@@ -31,6 +37,10 @@ export default function Header() {
         <ActiveLink href="/blog">
           <a className="mx-2">Blog</a>
         </ActiveLink>
+        <ActiveLink href="/til">
+          <a className="mx-2">TIL</a>
+        </ActiveLink>
+
         <ActiveLink href="/garden">
           <a className="mx-2">Garden</a>
         </ActiveLink>
