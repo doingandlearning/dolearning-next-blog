@@ -8,6 +8,8 @@ import EmailForm from "@components/EmailForm";
 import components from "@components/Components";
 import BlogCard from "@components/BlogCard";
 
+import { format } from "date-fns";
+
 import {
   getPostBySlug,
   getAllPosts,
