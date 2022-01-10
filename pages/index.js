@@ -84,12 +84,10 @@ export default function Home({ fields }) {
             <h2 className="text-center">What can you expect around here?</h2>
             <div className="container w-2/3 mx-auto">
               <p>
-                Alongside my business partner, I run{" "}
-                <a href="https://spin-up.io">SpinUp</a>. We work alongside
-                clients to build functional prototypes to help them test ideas
-                and attract users and funding. While working with clients and
-                code, I'm constantly noting down what I think other developers
-                would find helpful and useful.
+                I work with teams and individuals to help them grow in their
+                development skills by delivering in-person workshops and online
+                courses. This ranges from JavaScript/TypeScipt (Node, React, Vue
+                and Angular), Python and Go.
               </p>
               <p>
                 On this site, you'll find a collection of posts, courses and
