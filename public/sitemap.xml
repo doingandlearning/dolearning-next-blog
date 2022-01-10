@@ -2,14 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc></loc>
-    <lastmod>2021-03-30T19:15:32.034Z</lastmod>
+    <lastmod>2022-01-10T10:09:34.729Z</lastmod>
+  </url>
+  <url>
+    <loc>/project-ideas</loc>
+    <priority>0.3</priority>
+    <lastmod>2021-05-11T10:42:25.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/training</loc>
+    <priority>0.3</priority>
+    <lastmod>2021-05-04T14:39:26.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/mentoring</loc>
+    <priority>0.3</priority>
+    <lastmod>2021-05-04T14:37:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/about</loc>
+    <priority>0.3</priority>
+    <lastmod>2021-05-04T14:32:34.000Z</lastmod>
   </url>
   <url>
     <loc>/home</loc>
     <priority>0.3</priority>
-    <lastmod>2021-03-30T17:38:42.000Z</lastmod>
+    <lastmod>2021-05-04T14:17:55.000Z</lastmod>
   </url>
 
+  <url>
+    <loc>/posts/extracting-notes-and-highlights-from-ibooks</loc>
+    <lastmod>2022-01-03T11:22:26.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/onboarding-with-galileo</loc>
+    <lastmod>2022-01-01T19:12:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/whats-the-point-of-remembering-when-weve-got-google</loc>
+    <lastmod>2021-09-08T07:28:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/restarting-from-a-halt</loc>
+    <lastmod>2021-09-01T07:26:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/modelling-a-new-born-baby-with-xstate</loc>
+    <lastmod>2021-07-08T07:23:46.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/pseudocode-what-now</loc>
+    <lastmod>2021-06-29T07:12:27.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/xstate-vue-traffic-light-example</loc>
+    <lastmod>2021-06-23T06:43:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/is-it-okay-to-try-to-learn-vue-and-js-at-the-same-time</loc>
+    <lastmod>2021-05-28T13:15:26.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/moving-to-vue-from-react</loc>
+    <lastmod>2021-05-12T15:28:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/create-a-data-driven-component-with-wordpress-and-next-js</loc>
+    <lastmod>2021-04-23T17:06:38.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/teaching-as-a-way-of-learning</loc>
+    <lastmod>2021-04-10T06:36:27.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/creating-a-wordpress-theme</loc>
+    <lastmod>2021-05-14T16:07:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/what-makes-a-good-tutorial</loc>
+    <lastmod>2021-04-05T17:05:10.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/from-mdx-to-wordpress</loc>
+    <lastmod>2021-04-05T17:05:15.000Z</lastmod>
+  </url>
   <url>
     <loc>/posts/gatsby-and-wordpress</loc>
     <lastmod>2021-03-30T13:52:58.000Z</lastmod>
@@ -40,7 +116,7 @@
   </url>
   <url>
     <loc>/posts/headless-wordpress-rest-or-graphql</loc>
-    <lastmod>2021-03-30T14:48:04.000Z</lastmod>
+    <lastmod>2021-04-06T11:52:07.000Z</lastmod>
   </url>
   <url>
     <loc>/posts/advantages-of-headless-wordpress</loc>
@@ -60,7 +136,7 @@
   </url>
   <url>
     <loc>/posts/dealing-with-a-database-with-nextjs-api-routes</loc>
-    <lastmod>2021-03-30T14:39:36.000Z</lastmod>
+    <lastmod>2021-04-04T05:39:05.000Z</lastmod>
   </url>
   <url>
     <loc>/posts/day-1-up-and-running</loc>
@@ -104,7 +180,7 @@
   </url>
   <url>
     <loc>/posts/where-should-you-host-the-wordpress-instance</loc>
-    <lastmod>2021-03-30T15:04:23.000Z</lastmod>
+    <lastmod>2021-04-30T09:02:59.000Z</lastmod>
   </url>
   <url>
     <loc>/posts/is-blitz-js-worth-your-time</loc>
@@ -128,7 +204,7 @@
   </url>
   <url>
     <loc>/posts/which-programming-language-should-i-choose</loc>
-    <lastmod>2021-03-30T15:05:01.000Z</lastmod>
+    <lastmod>2021-04-12T07:03:19.000Z</lastmod>
   </url>
   <url>
     <loc>/posts/what-is-in-a-newsletter</loc>
@@ -232,7 +308,7 @@
   </url>
   <url>
     <loc>/posts/drupal-patch</loc>
-    <lastmod>2021-03-30T14:20:14.000Z</lastmod>
+    <lastmod>2021-04-10T06:38:37.000Z</lastmod>
   </url>
   <url>
     <loc>/posts/protecting-credentials</loc>

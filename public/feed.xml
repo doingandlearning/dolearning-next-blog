@@ -4,11 +4,152 @@
         <description><![CDATA[Kevin Cunningham]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Mar 2021 19:15:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Jan 2022 10:09:34 GMT</lastBuildDate>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 30 Mar 2021 19:15:32 GMT</pubDate>
-        <copyright><![CDATA[2021 Kevin Cunningham]]></copyright>
+        <pubDate>Mon, 10 Jan 2022 10:09:34 GMT</pubDate>
+        <copyright><![CDATA[2022 Kevin Cunningham]]></copyright>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Extracting notes and highlights from iBooks]]></title>
+            <description><![CDATA[As much as possible, I like to work in plain text. This post is written in Markdown and I like the freedom and versatility that gives me. I read a lot and on a variety of different devices. I feel that getting all of my notes and highlights into the same place is quite important [&hellip;]
+]]></description>
+            <link>/posts/extracting-notes-and-highlights-from-ibooks</link>
+            <guid isPermaLink="false">/posts/extracting-notes-and-highlights-from-ibooks</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 03 Jan 2022 11:20:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Onboarding with Galileo]]></title>
+            <description><![CDATA[As part of exploring what self-directed learning looks like for us as a family, Son1 has decided he wants to enrol in Galileo. I want to be able to reflect on this and, potentially, provide value to other parents considering a similar move so will be blogging about our experience. We’ve just completed our onboarding [&hellip;]
+]]></description>
+            <link>/posts/onboarding-with-galileo</link>
+            <guid isPermaLink="false">/posts/onboarding-with-galileo</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Sat, 01 Jan 2022 19:12:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What’s the point of remembering when we’ve got Google?]]></title>
+            <description><![CDATA[We live in an information rich world. More data is created every day than was in existence for our entire history before 1900. Each piece of information is just at the end of a Google search &#8211; down a rabbit hole of links and footnotes and comments. Is it realistic to talk about remembering things [&hellip;]
+]]></description>
+            <link>/posts/whats-the-point-of-remembering-when-weve-got-google</link>
+            <guid isPermaLink="false">/posts/whats-the-point-of-remembering-when-weve-got-google</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 07:28:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Restarting from a halt]]></title>
+            <description><![CDATA[This summer has been jam packed with life going on &#8211; camping, hanging with family, travelling to Ireland for the first time since Covid and exploring relocating. The upshot is that I haven&#8217;t produced much content &#8211; not a lot of writing for this space or videos for egghead and YouTube. While life has got [&hellip;]
+]]></description>
+            <link>/posts/restarting-from-a-halt</link>
+            <guid isPermaLink="false">/posts/restarting-from-a-halt</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 01 Sep 2021 07:26:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Modelling a new-born baby with XState and Vue]]></title>
+            <description><![CDATA[I got to hang out with my friend Colby this week on his stream, Colbyashi Maru (non-Star Trek fans might miss the reference to the Kobayashi Maru). The idea of this stream is that developers try to solve an impossible problem in an hour while chatting to Colby. Colby is soon to welcome his first [&hellip;]
+]]></description>
+            <link>/posts/modelling-a-new-born-baby-with-xstate</link>
+            <guid isPermaLink="false">/posts/modelling-a-new-born-baby-with-xstate</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 08 Jul 2021 07:09:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pseudocode. What now?]]></title>
+            <description><![CDATA[This is a work in progress. Hassle me on Twitter if you want to see it finished quicker 🙂 I was thinking about pseudocode recently and whether it has a place in our learning and development. It came about because I was asked to teach a lesson to new developers and I got to wonder [&hellip;]
+]]></description>
+            <link>/posts/pseudocode-what-now</link>
+            <guid isPermaLink="false">/posts/pseudocode-what-now</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 29 Jun 2021 07:11:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[XState & Vue: Traffic Light Example]]></title>
+            <description><![CDATA[I love that we live in a world of rapid innovation, one in which there is always something new to learn. I also love that we have access to the shared wisdom of creators, thinkers and innovators of the past. I&#8217;ve been participating in a &#8220;Portfolio Club&#8221; focused on state management. This club is facilitated [&hellip;]
+]]></description>
+            <link>/posts/xstate-vue-traffic-light-example</link>
+            <guid isPermaLink="false">/posts/xstate-vue-traffic-light-example</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 23 Jun 2021 06:34:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Is it okay to try to learn Vue and JS at the same time?]]></title>
+            <description><![CDATA[Do you have an idea that you&#8217;d like to build yourself? Have you messed around with CSS and HTML in the past but feel behind the times now? Do the results that you see achieved with Vue inspire you to want to explore more? One of the reasons I love Vue is that, as the [&hellip;]
+]]></description>
+            <link>/posts/is-it-okay-to-try-to-learn-vue-and-js-at-the-same-time</link>
+            <guid isPermaLink="false">/posts/is-it-okay-to-try-to-learn-vue-and-js-at-the-same-time</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 28 May 2021 12:56:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Moving to Vue from React]]></title>
+            <description><![CDATA[Are you a React developer who has a new job mainly run on Vue? Are you excited for the challenge but want to know where to start learning? Are you looking for resources specifically for someone from a React background? Let me point out some quick wins and then point you towards more learning resources [&hellip;]
+]]></description>
+            <link>/posts/moving-to-vue-from-react</link>
+            <guid isPermaLink="false">/posts/moving-to-vue-from-react</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 07 May 2021 07:56:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Create a data driven component with WordPress and Next.js]]></title>
+            <description><![CDATA[When you are building a content driven website for a client there is a tension between consistency of experience and the opportunity for flair. If, like me, you are mostly working in a headless way, you may also want your CMS to capture and serve raw data at particular points. This can be processed and [&hellip;]
+]]></description>
+            <link>/posts/create-a-data-driven-component-with-wordpress-and-next-js</link>
+            <guid isPermaLink="false">/posts/create-a-data-driven-component-with-wordpress-and-next-js</guid>
+            <category><![CDATA[Next]]></category>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 21 Apr 2021 09:07:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Teaching as a way of learning]]></title>
+            <description><![CDATA[It&#8217;s easy to remember my first week of teacher training. I&#8217;d just moved country, I didn&#8217;t know anyone, it was raining heavily and I was wondering if I&#8217;d made a mistake. There were about 30 people in my cohort &#8211; all different in age, race and backgrounds &#8211; but all here to train to be [&hellip;]
+]]></description>
+            <link>/posts/teaching-as-a-way-of-learning</link>
+            <guid isPermaLink="false">/posts/teaching-as-a-way-of-learning</guid>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Fri, 09 Apr 2021 17:11:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating a WordPress Theme]]></title>
+            <description><![CDATA[A WordPress theme is a group of files that work together to create the design of your site and control how your site behaves. These files can include template files, stylesheets, JavaScript files and other assets that contribute to the look and feel of your site. There is a huge selection of themes available for [&hellip;]
+]]></description>
+            <link>/posts/creating-a-wordpress-theme</link>
+            <guid isPermaLink="false">/posts/creating-a-wordpress-theme</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 06 Apr 2021 09:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What makes an excellent tutorial?]]></title>
+            <description><![CDATA[How do you know if this tutorial is actually going to help you learn something? Is this going to be too easy or too hard? Am I going to learn how to draw an owl like this? As part of my newsletter each week, I share tutorials and resources that I&#8217;ve found most helpful in [&hellip;]
+]]></description>
+            <link>/posts/what-makes-a-good-tutorial</link>
+            <guid isPermaLink="false">/posts/what-makes-a-good-tutorial</guid>
+            <category><![CDATA[Learning]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 05 Apr 2021 16:42:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[From MDX to WordPress]]></title>
+            <description><![CDATA[My experience with blogging may be back to front to others. When I started blogging back in early 2019, I worked entirely in Markdown. That had some amazing benefits. As I learnt about new systems, both through work and experimentation, I could easily pivot. I&#8217;ve used the same content in a Gatsby, Jeykll and Next [&hellip;]
+]]></description>
+            <link>/posts/from-mdx-to-wordpress</link>
+            <guid isPermaLink="false">/posts/from-mdx-to-wordpress</guid>
+            <category><![CDATA[WordPress]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Wed, 31 Mar 2021 07:08:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Why is my video file not being cached by gatsby-source-wordpress?]]></title>
             <description><![CDATA[I&#8217;m not picky over what technology I use to deliver results for my clients. At SpinUp, we&#8217;ll normally help find the best mix of technologies that will allow for excellent results fast. Recently though, we had a project in which the technology was pre-defined &#8211; WordPress on the backend and Gatsby on the front-end. I [&hellip;]
@@ -310,7 +451,7 @@
         </item>
         <item>
             <title><![CDATA[Which programming language should I choose?]]></title>
-            <description><![CDATA[I&#8217;m largely a self-taught developer. Before I started working with code professionally I would often read a new programming book, enroll in a new MOOC or go down a rabbit hole of learning and reading and thinking. While I love learning this wasn&#8217;t helpful for me. I was living with a strong sense of shiny [&hellip;]
+            <description><![CDATA[I&#8217;m largely a self-taught developer (I guess even those who studied CS at college are too!). Before I started working with code professionally, I would often get distracted by some thread on the internet that told me about the language I should be learning right now. I&#8217;d read a post about how this language was [&hellip;]
 ]]></description>
             <link>/posts/which-programming-language-should-i-choose</link>
             <guid isPermaLink="false">/posts/which-programming-language-should-i-choose</guid>
