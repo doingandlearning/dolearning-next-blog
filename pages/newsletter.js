@@ -21,8 +21,8 @@ export default function Garden() {
           </p>
           <ul className="leading-6">
             <li>
-              an actionable and helpful reflection to help reflect on and level
-              up your learning;
+              an actionable and helpful reflection to help think about and level
+              up your learning journey;
             </li>
             <li>two learning resources that can help you on your way;</li>
             <li>
