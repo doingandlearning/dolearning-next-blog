@@ -39,6 +39,9 @@ export default function Header() {
         <ActiveLink href="/til">
           <a className="mx-2">TIL</a>
         </ActiveLink>
+        <ActiveLink href="/courses">
+          <a className="mx-2">Courses</a>
+        </ActiveLink>
 
         <ActiveLink href="/garden">
           <a className="mx-2">Garden</a>
