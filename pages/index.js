@@ -118,6 +118,11 @@ export default function Home({ fields }) {
                     Have a stroll around my digital garden
                   </Link>
                 </li>
+                <li>
+                  <a href="https://twitter.com/dolearning">
+                    Come follow me on Twitter.
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
