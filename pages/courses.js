@@ -3,43 +3,9 @@ import Image from "next/image";
 import Layout from "@components/Layout";
 import CourseForm from "@components/CourseForm";
 
-export default function Courses() {
-  const courses = [
-    {
-      id: 1,
-      title:
-        "WordPress as a Headless Content Management System (CMS) and GraphQL API",
-      link: "https://egghead.io/courses/headless-wordpress-4a14?af=gbhjp8",
-      imageSrc: "/headlesswordpress.webp",
-      imageAlt: "WordPress and GraphQL logo",
-      cta: "Watch now",
-    },
-    {
-      id: 2,
-      title: "The Beginner's Guide to Vue 3",
-      link: "https://egghead.io/courses/the-beginner-s-guide-to-vue-3-1c46da8b?af=gbhjp8",
-      imageSrc: "/vue3.webp",
-      imageAlt: "Vue 3 course logo",
-      cta: "Watch now",
-    },
-    {
-      id: 3,
-      title: "Create a GraphQL Powered Vue 3 Application",
-      link: "https://egghead.io/courses/create-a-graphql-powered-vue-3-application-8152749d?af=gbhjp8",
-      imageSrc: "/graphqlandvue.webp",
-      imageAlt: "Vue 3 course logo",
-      cta: "Watch now",
-    },
-    {
-      id: 4,
-      title: "Building an API with Express",
-      link: "https://egghead.io/courses/building-an-api-with-express-f1ea?af=gbhjp8",
-      imageSrc: "/expressjslogo.webp",
-      imageAlt: "Express js course logo",
-      cta: "Watch now",
-    },
-  ];
+import { getAllEgghead } from "lib/courses";
 
+export default function Courses({ courses }) {
   return (
     <Layout>
       <div className="container mx-auto">
@@ -51,7 +17,7 @@ export default function Courses() {
         </p>
         <div class="grid grid-cols-3 space-x-4 space-y-4">
           {courses.map((course) => (
-            <RenderedCourse {...course} />
+            <RenderedCourse {...course.recordedCourse} />
           ))}
         </div>
 
@@ -96,16 +62,15 @@ export default function Courses() {
   );
 }
 
-function RenderedCourse({ id, imageSrc, imageAlt, title, link, cta }) {
-  console.log({ id, imageSrc, imageAlt, title, link, cta });
+function RenderedCourse({ image, title, link, cta }) {
   return (
-    <a href={link} target="_blank" rel="noreferrer" key={id}>
+    <a href={link} target="_blank" rel="noreferrer" key={title}>
       <div class="bg-white rounded-lg shadow-lg flex flex-col">
         <Image
-          src={imageSrc}
+          src={image.sourceUrl}
           class="rounded-t-lg mx-auto"
           style="margin:0"
-          alt={imageAlt}
+          alt={image.altText}
           width="480"
           height="480"
         />
@@ -116,4 +81,14 @@ function RenderedCourse({ id, imageSrc, imageAlt, title, link, cta }) {
       </div>
     </a>
   );
+}
+
+export async function getStaticProps() {
+  const eggheadCourses = await getAllEgghead();
+
+  return {
+    props: {
+      courses: eggheadCourses.courses,
+    },
+  };
 }
