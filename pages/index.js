@@ -119,7 +119,7 @@ export default function Home({ fields }) {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://twitter.com/dolearning">
+                  <a href="https://twitter.com/dolearning" target="_blank">
                     Come follow me on Twitter.
                   </a>
                 </li>
