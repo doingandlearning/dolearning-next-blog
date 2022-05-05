@@ -6,6 +6,9 @@ import CourseForm from "@components/CourseForm";
 import { getAllEgghead } from "lib/courses";
 
 export default function Courses({ courses }) {
+  const sortedCourses = [...courses].sort(
+    (a, b) => a.recordedCourse.order - b.recordedCourse.order
+  );
   return (
     <Layout>
       <div className="container mx-auto">
@@ -16,7 +19,7 @@ export default function Courses({ courses }) {
           platform to share them. Here are the current ones:
         </p>
         <div class="grid grid-cols-3 space-x-4 space-y-4">
-          {courses.map((course) => (
+          {sortedCourses.map((course) => (
             <RenderedCourse {...course.recordedCourse} />
           ))}
         </div>
@@ -84,11 +87,11 @@ function RenderedCourse({ image, title, link, cta }) {
 }
 
 export async function getStaticProps() {
-  const eggheadCourses = await getAllEgghead();
+  const { courses } = await getAllEgghead();
 
   return {
     props: {
-      courses: eggheadCourses.courses,
+      courses,
     },
   };
 }

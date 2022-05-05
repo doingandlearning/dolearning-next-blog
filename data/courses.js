@@ -12,6 +12,7 @@ export const QUERY_ALL_EGGHEAD_COURSES = gql`
           }
           title
           link
+          order
         }
       }
     }
