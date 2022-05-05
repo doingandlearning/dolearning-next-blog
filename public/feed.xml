@@ -4,11 +4,21 @@
         <description><![CDATA[Kevin Cunningham]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Jan 2022 10:12:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 May 2022 13:13:02 GMT</lastBuildDate>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Jan 2022 10:12:35 GMT</pubDate>
+        <pubDate>Thu, 05 May 2022 13:13:02 GMT</pubDate>
         <copyright><![CDATA[2022 Kevin Cunningham]]></copyright>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[quizme: Building a Node CLI Tool]]></title>
+            <description><![CDATA[I’m getting back into streaming once a week and I wasn’t sure what to start with. I put a poll out on Twitter and it came back. Going to start streaming again tomorrow afternoon. Wondering what to work on &#8211; what do you think? &mdash; Kevin Cunningham (@dolearning) April 28, 2022 I ended up building [&hellip;]
+]]></description>
+            <link>/posts/quizme-building-a-node-cli-tool</link>
+            <guid isPermaLink="false">/posts/quizme-building-a-node-cli-tool</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 03 May 2022 12:28:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Extracting notes and highlights from iBooks]]></title>
             <description><![CDATA[As much as possible, I like to work in plain text. This post is written in Markdown and I like the freedom and versatility that gives me. I read a lot and on a variety of different devices. I feel that getting all of my notes and highlights into the same place is quite important [&hellip;]

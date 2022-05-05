@@ -8,6 +8,7 @@ import Link from "next/link";
 import React from "react";
 import { getHomePageFields } from "lib/pages";
 import { getMetaImage } from "lib/image";
+import router from "next/router";
 
 export default function Home({ fields }) {
   const [mailingList, setMailingList] = React.useState(
@@ -27,8 +28,8 @@ export default function Home({ fields }) {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <div>
-            <div className="flex justify-between bg-dlgrey flex-col md:flex-row pt-16">
-              <div className="flex flex-row md:flex-col justify-center mx-8 my-2">
+            <div className="flex justify-between bg-dlgrey flex-col md:flex-row pt-16 mx-auto  px-4 sm:px-6 lg:px-8">
+              {/* <div className="flex flex-row md:flex-col justify-center mx-8 my-2">
                 {headerFields.socialLinks.map((social, idx) => (
                   <div key={idx}>
                     <a href={social.link}>
@@ -36,7 +37,7 @@ export default function Home({ fields }) {
                     </a>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <div className="w-5/6 md:w-1/2 md:mx-0 mx-auto">
                 {/* <p className="text-primary">Kevin Cunningham</p> */}
                 <h2 className="w-5/6 font-extrabold text-dlblue text-3xl leading-8 mb-4">
@@ -75,9 +76,12 @@ export default function Home({ fields }) {
               >
                 {headerFields.button.text}
               </button>
-              <div className="text-primary bg-white rounded-lg md:my-8 mx-4  py-4 px-3 text-center text-xl border-2 border-primary">
-                Keep reading ⬇️
-              </div>
+              <button
+                onClick={() => router.push("/mentoring")}
+                className="text-primary bg-white rounded-lg md:my-8 mx-4  py-4 px-3 text-center text-xl border-2 border-primary"
+              >
+                Book a call
+              </button>
             </div>
           </div>
           <div>
