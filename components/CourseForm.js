@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-export default function Form({ page }) {
+export default function Form() {
   const [fields, setFields] = useState({
-    page,
+    page: "Course Form",
     firstName: "",
     lastName: "",
     message: "",
