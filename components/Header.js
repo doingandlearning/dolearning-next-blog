@@ -30,9 +30,6 @@ export default function Header() {
         </div>
       </Link>
       <div className="flex lg:w-1/5 md:w-1/3 w-1/2 ml-6 justify-between my-auto font-normal">
-        <ActiveLink href="/">
-          <a className="mx-2">Home</a>
-        </ActiveLink>
         <ActiveLink href="/blog">
           <a className="mx-2">Blog</a>
         </ActiveLink>
