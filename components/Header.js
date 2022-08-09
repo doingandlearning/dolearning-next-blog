@@ -36,15 +36,15 @@ export default function Header() {
         <ActiveLink href="/blog">
           <a className="mx-2">Blog</a>
         </ActiveLink>
-        <ActiveLink href="/til">
-          <a className="mx-2">TIL</a>
-        </ActiveLink>
         <ActiveLink href="/courses">
           <a className="mx-2">Courses</a>
         </ActiveLink>
 
         <ActiveLink href="/garden">
           <a className="mx-2">Garden</a>
+        </ActiveLink>
+        <ActiveLink href="/about">
+          <a className="mx-2">TIL</a>
         </ActiveLink>
       </div>
     </div>
