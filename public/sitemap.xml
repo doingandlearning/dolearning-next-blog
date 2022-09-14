@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc></loc>
-    <lastmod>2022-05-05T17:50:47.305Z</lastmod>
+    <lastmod>2022-09-14T10:06:41.553Z</lastmod>
   </url>
   <url>
     <loc>/project-ideas</loc>
@@ -30,6 +30,14 @@
     <lastmod>2022-01-10T10:35:34.000Z</lastmod>
   </url>
 
+  <url>
+    <loc>/posts/using-parseargs-in-node</loc>
+    <lastmod>2022-08-09T15:22:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/building-clis-for-humans</loc>
+    <lastmod>2022-07-04T05:46:42.000Z</lastmod>
+  </url>
   <url>
     <loc>/posts/quizme-building-a-node-cli-tool</loc>
     <lastmod>2022-05-03T12:41:04.000Z</lastmod>
@@ -317,5 +325,9 @@
   <url>
     <loc>/posts/protecting-credentials</loc>
     <lastmod>2021-03-30T14:21:21.000Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/7-ways-parents-could-support-an-anxious-child</loc>
+    <lastmod>2022-05-11T07:30:57.000Z</lastmod>
   </url>
 </urlset>

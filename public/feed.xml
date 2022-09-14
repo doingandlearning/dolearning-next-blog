@@ -4,11 +4,31 @@
         <description><![CDATA[Kevin Cunningham]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 May 2022 17:50:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Sep 2022 10:06:41 GMT</lastBuildDate>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 May 2022 17:50:47 GMT</pubDate>
+        <pubDate>Wed, 14 Sep 2022 10:06:41 GMT</pubDate>
         <copyright><![CDATA[2022 Kevin Cunningham]]></copyright>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Using parseArgs in Node]]></title>
+            <description><![CDATA[In Node 18.3, parseArgs was added to the core util module. This is still marked as experimental but is a great addition to CLI tools you might be building. Up until now, to able to parse arguments you&#8217;d need to use a 3rd party library or to write some custom logic to handle this. Here&#8217;s [&hellip;]
+]]></description>
+            <link>/posts/using-parseargs-in-node</link>
+            <guid isPermaLink="false">/posts/using-parseargs-in-node</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Tue, 09 Aug 2022 14:45:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building CLIs for Humans]]></title>
+            <description><![CDATA[When someone who is less technical sees a terminal in use, they can feel intimidated and overwhelmed. The reality is that the command line should empower users not scare them. Here&#8217;s some thoughts on how. 1. Adaptive onboarding A new native or web app takes its time to show users how to achieve the key [&hellip;]
+]]></description>
+            <link>/posts/building-clis-for-humans</link>
+            <guid isPermaLink="false">/posts/building-clis-for-humans</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Mon, 04 Jul 2022 05:46:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[quizme: Building a Node CLI Tool]]></title>
             <description><![CDATA[I’m getting back into streaming once a week and I wasn’t sure what to start with. I put a poll out on Twitter and it came back. Going to start streaming again tomorrow afternoon. Wondering what to work on &#8211; what do you think? &mdash; Kevin Cunningham (@dolearning) April 28, 2022 I ended up building [&hellip;]
@@ -741,6 +761,16 @@
             <category><![CDATA[Auth]]></category>
             <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
             <pubDate>Wed, 13 Feb 2019 15:20:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7 Ways Parents Could Support an Anxious Child]]></title>
+            <description><![CDATA[As someone who deals with anxiety myself, it is helpful for me to think about how I can support my boys as they express worry. I don’t want my issues to become their issues, but equally I want to make sure that we take their concerns seriously. Our boys are deep thinkers and often will [&hellip;]
+]]></description>
+            <link>/posts/7-ways-parents-could-support-an-anxious-child</link>
+            <guid isPermaLink="false">/posts/7-ways-parents-could-support-an-anxious-child</guid>
+            <category><![CDATA[Uncategorized]]></category>
+            <dc:creator><![CDATA[Kevin Cunningham]]></dc:creator>
+            <pubDate>Thu, 15 Jun 2017 07:29:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
