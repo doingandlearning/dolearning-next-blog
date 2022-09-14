@@ -57,9 +57,12 @@ export default function BelfastJS() {
           on <a href="mailto:enquiry@kevincunningham.co.uk">email</a>.
         </p>
         <p>
-          I tweet here fairly regularly and send a semi-regular newsletter to
-          help with learning (
-          <Link href={"/newsletter"}>you can sign up here</Link>).
+          I{" "}
+          <a href="https://twitter.com/dolearning" target="_blank">
+            tweet here
+          </a>{" "}
+          fairly regularly and send a semi-regular newsletter to help with
+          learning (<Link href={"/newsletter"}>you can sign up here</Link>).
         </p>
       </div>
     </Layout>
