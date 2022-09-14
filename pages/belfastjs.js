@@ -54,7 +54,7 @@ export default function BelfastJS() {
         </ul>
         <p>
           If you're interested in me working with your team, you can reach out
-          on email.
+          on <a href="mailto:enquiry@kevincunningham.co.uk">email</a>.
         </p>
         <p>
           I tweet here fairly regularly and send a semi-regular newsletter to
