@@ -88,19 +88,25 @@ export default function Home({ fields }) {
             <h2 className="text-center">What can you expect around here?</h2>
             <div className="container w-2/3 mx-auto">
               <p>
-                I work with teams and individuals to help them grow in their
-                development skills by delivering in-person workshops and online
-                courses. This ranges from JavaScript/TypeScipt (Node, React, Vue
-                and Angular), Python and Go.
+                My primary focus is on helping individuals and teams enhance
+                their development skills in JavaScript, including popular
+                frameworks such as Node, React, Vue, and Angular.
               </p>
               <p>
-                On this site, you'll find a collection of posts, courses and
-                materials that I have created to help you take your development
-                journey to the next level.
+                Through my in-person workshops and online courses, I provide
+                personalized guidance to help you write robust and reliable
+                JavaScript code.
               </p>
               <p>
-                Below, I've got pointers to some topics I'm currently excited
-                about. Have a look!
+                On this website, you will find a wealth of resources, including
+                a collection of posts, courses, and materials designed to help
+                you take your JavaScript skills to the next level.
+              </p>
+              <p>
+                Currently, I am most excited about exploring the latest
+                advancements and trends in the world of JavaScript development.
+                If you share this passion, I invite you to browse through the
+                topics I am currently exploring below.
               </p>
               <p>You could also:</p>
               <ul>
